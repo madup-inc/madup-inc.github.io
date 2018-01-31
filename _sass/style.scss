@@ -20,8 +20,8 @@ body {
     }
 
     h1,h2,h3,h4,h5,h6 {
-         font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-         font-weight: bold;
+         font-family: "Lato", "Jeju Gothic", "Helvetica Neue", Helvetica, sans-serif;
+         font-weight: 400;
          line-height: 1.8;
          margin: 0;
          text-transform: capitalize;
@@ -144,7 +144,6 @@ blockquote {
 // Adding 'Contents' headline to the TOC
 #markdown-toc::before {
     content: "목차";
-    font-weight: bold;
 }
 
 
@@ -157,7 +156,9 @@ blockquote {
     border: 1px solid $brand-color;
     padding: 1em 2em;
     list-style: decimal;
+    white-space: nowrap;
     display: inline-block;
+    font-family: "Lato", "Jeju Gothic", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /* Theme switch button */
