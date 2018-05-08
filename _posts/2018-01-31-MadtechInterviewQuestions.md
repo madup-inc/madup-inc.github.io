@@ -35,7 +35,7 @@ title: 매드업 기술 면접 질문
  * 데몬 프로그램의 작성시 선호하는 언어는(1)?
    * 배치와 데몬을 구분하는지(1)?
    * 작동 방식/원리는(2)?
- * `shebang(!#) pipe(|) redirect(<&>) stdin(0) stdout(1) stderr(2) background(&)` 의미는?
+ * `shebang(#!) pipe(|) redirect(<&>) stdin(0) stdout(1) stderr(2) background(&)` 의미는?
 
 
 ### 서비스 운영
