@@ -5,7 +5,7 @@ author: Chris
 date: 2018-09-19
 ---
 
-![로고](foo)
+![로고](/images/2018/09/19/ad.jpg)
 
 매드업은 광고 진행을 위한 기술 솔루션을 개발하는 팀입니다.
 광고주로부터 의뢰을 받아 적절한 곳으로 광고를 보내는 역할을 하고 있지요.
@@ -70,7 +70,7 @@ AWS 빈스톡 위에서 돌아가는 서비스입니다.
 올해 스택오버플로우에서 조사한 개발 언어 인기조사에서의 스칼라 순위가 이를 방증하고 있다고 생각합니다.
 
 ![](/images/2018/09/19/stackoverflow-developer-servey-results-2018.jpg)
-<small>- [Stackoverflow Developer Servey Results 2018](https://insights.stackoverflow.com/survey/2018/#technology-programming-scripting-and-markup-languages) 참고 -</small>
+<small style="display:block;text-align:center">- [Stackoverflow Developer Servey Results 2018](https://insights.stackoverflow.com/survey/2018/#technology-programming-scripting-and-markup-languages) 참고 -</small>
 
 대안으로 **자바스크립트**를 선택했습니다.
 정도의 차이는 있지만 팀원 모두가 노드JS에 대한 경험이 있었고, 최소한 코드를 읽을 수 있는 역량은 갖추고 있는 상황이기 때문입니다.
@@ -88,18 +88,20 @@ AWS 빈스톡 위에서 돌아가는 서비스입니다.
 리액트 어플리케이션을 올려 정적 파일로 처리할 수 있는 단일 웹어플리케이션을 재구축했습니다.
 이 어플리케이션 코드는 하나의 빈스톡 환경에 배포하여 프론트엔드와 백앤드를 함께 호스팅하도록 했구요.
 
+![기존 어플리케이션 구조](/images/2018/09/19/infra.jpg)
+<center><small>- 현행 서버와 신규 서버(파란색) 병행 -</small></center>
+
 신규 서비스는 여전히 스칼라로 만든 백엔드 API를 호출하고 있는 상태입니다.
 운영 중인 서비스를 중단없이 기술 이관하기 위해 **점진적으로 개발**하자는 전략을 세웠습니다.
 개발과 운영 두 가지를 동시에 진행할 수 있었던 것은 프론트엔드의 API 호출을 하나의 모듈이 처리하고 있는 현재 구조 덕분이었습니다.
-
-![기존 어플리케이션 구조]()
 
 우리는 API 담당 모듈 앞단에 `apiUrlAdaptor`라는 녀석을 두어 노드JS로 만든 신규 API와 스칼라로 만든 현행 API를 선택하는 역할을 부여했습니다.
 개발 진척도에 따라 이 모듈이 신규/현행 API 선택을 판단하고 API 담당 모듈은 그 결과로 API를 호출할 수 있는 구조입니다.
 
 예상치 못한 상황에 대비한 피쳐토글을 두어 `apiUrlAdaptor` 역할을 무력화하여 신규 API 사용을 방지하는 예비책도 준비했구요.
 
-![변경된 임시 어플리케이션 구조](?)
+![변경된 임시 어플리케이션 구조](/images/2018/09/19/apiUrlAdaptor.jpg)
+<center><small>- apiUrlAdaptor의 역할 -</small></center>
 
 모든 API를 노드로 이관한 뒤 이 역할을 다한 `apiUrlAdaptor`와 피처토글을 제거하여
 클라이언트에서 발생한 모든 API요청을 스칼라 서버에서서 노드JS 서버로 변경했습니다.
