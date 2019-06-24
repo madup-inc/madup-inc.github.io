@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 스칼라에서 노드JS로 갈아탄 이유
+title:  "스칼라에서 노드JS로 갈아탄 이유"
 author: Chris
-date: 2018-09-19
+categories: [ node ]
+image: assets/images/ad.jpg
+featured: true
 ---
-
-![로고](/images/2018/09/19/ad.jpg)
 
 매드업은 광고 진행을 위한 기술 솔루션을 개발하는 팀입니다.
 광고주로부터 의뢰을 받아 적절한 곳으로 광고를 보내는 역할을 하고 있지요.
@@ -69,7 +69,7 @@ AWS 빈스톡 위에서 돌아가는 서비스입니다.
 
 올해 스택오버플로우에서 조사한 개발 언어 인기조사에서의 스칼라 순위가 이를 방증하고 있다고 생각합니다.
 
-![](/images/2018/09/19/stackoverflow-developer-servey-results-2018.jpg)
+![](../assets/images/stackoverflow-developer-servey-results-2018.jpg)
 <small style="display:block;text-align:center">- [Stackoverflow Developer Servey Results 2018](https://insights.stackoverflow.com/survey/2018/#technology-programming-scripting-and-markup-languages) 참고 -</small>
 
 대안으로 **자바스크립트**를 선택했습니다.
@@ -88,7 +88,7 @@ AWS 빈스톡 위에서 돌아가는 서비스입니다.
 리액트 어플리케이션을 올려 정적 파일로 처리할 수 있는 단일 웹어플리케이션을 재구축했습니다.
 이 어플리케이션 코드는 하나의 빈스톡 환경에 배포하여 프론트엔드와 백앤드를 함께 호스팅하도록 했구요.
 
-![기존 어플리케이션 구조](/images/2018/09/19/infra.jpg)
+![기존 어플리케이션 구조](../assets/images/infra.jpg)
 <center><small>- 현행 서버와 신규 서버(파란색) 병행 -</small></center>
 
 신규 서비스는 여전히 스칼라로 만든 백엔드 API를 호출하고 있는 상태입니다.
@@ -100,7 +100,7 @@ AWS 빈스톡 위에서 돌아가는 서비스입니다.
 
 예상치 못한 상황에 대비한 피쳐토글을 두어 `apiUrlAdaptor` 역할을 무력화하여 신규 API 사용을 방지하는 예비책도 준비했구요.
 
-![변경된 임시 어플리케이션 구조](/images/2018/09/19/apiUrlAdaptor.jpg)
+![변경된 임시 어플리케이션 구조](../assets/images/apiUrlAdaptor.jpg)
 <center><small>- apiUrlAdaptor의 역할 -</small></center>
 
 모든 API를 노드로 이관한 뒤 이 역할을 다한 `apiUrlAdaptor`와 피처토글을 제거하여

@@ -1,6 +1,11 @@
 ---
 layout: post
-title: 서버 퍼포먼스 테스트 툴 사용후기
+title:  "서버 퍼포먼스 테스트 툴 사용후기"
+author: Willy
+categories: [ server, test ]
+tags: [wrk, vegeta, gatling]
+image: assets/images/1.jpg
+featured: true
 ---
 
 퍼포먼스 테스트 툴 5개의 설치, 튜토리얼, 간단한 사용후기입니다.
