@@ -4,23 +4,43 @@ title: "MadTech"
 description: "MadTech Blog"
 #meta_description: ""
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: madup-inc.github.io
+favicon: 'assets/images/favicon.ico'
 google_analytics: 'UA-126392657-1'
 disqus: 'maedeueob-gisulbeulrogeu'
-#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
 # Authors
 authors:
-  cindy:
+  Jason:
+    name: Jason
+    display_name: Jason
+    email: sngwon@madup.com
+    web: https://github.com/sngwon
+    description: "매드업의 짱짱 개발자입니다"
+  Willy:
+    name: Willy
+    display_name: Willy
+    email: qowns8@madup.com
+    web: https://github.com/qowns8
+    description: "매드업의 서버 개발자입니다"
+  Wendy:
+    name: Wendy
+    display_name: byaracho
+    email: aracho@madup.com
+    web: https://github.com/byaracho
+    description: "매드업의 데이터 분석가입니다"
+  Cindy:
     name: Cindy
     display_name: fireppunch
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: ymr@madup.com
     web: https://github.com/firepunch
     description: "매드업의 프론트엔드 개발자입니다"
+  Chris:
+    name: Chris
+    display_name: Chris
+    web: https://github.com/jeonghwan-kim
 
 # Plugins
 plugins:
