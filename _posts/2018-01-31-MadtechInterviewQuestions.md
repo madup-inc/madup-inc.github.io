@@ -1,11 +1,14 @@
 ---
 layout: post
-title: 매드업 기술 면접 질문
+title:  "매드업 기술 면접 질문"
+author: Jason
+categories: [ interview ]
+tags: [interview]
+image: assets/images/14.jpg
+featured: true
 ---
-실제 업무하면서 생각해보던 내용을 면접자분과 얘기해보고 싶어 작성했습니다. 저희도 정말 몰라서 물어보는 것들도 섞여 있을 수 있습니다; 서로의 의견을 교환할 수 있는 자리가 되었으면 합니다. :-)
 
-* Do not remove this line (it will not be displayed) 
-{:toc}
+실제 업무하면서 생각해보던 내용을 면접자분과 얘기해보고 싶어 작성했습니다. 저희도 정말 몰라서 물어보는 것들도 섞여 있을 수 있습니다; 서로의 의견을 교환할 수 있는 자리가 되었으면 합니다. :-)
 
 ### 일반적인 질문
  * 요즘 관심있는 기술이나 분야는?
