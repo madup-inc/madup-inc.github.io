@@ -2,7 +2,6 @@
 layout: post
 title:  "스칼라에서 노드JS로 갈아탄 이유"
 author: Chris
-categories: [ node ]
 image: assets/images/ad.jpg
 featured: true
 ---

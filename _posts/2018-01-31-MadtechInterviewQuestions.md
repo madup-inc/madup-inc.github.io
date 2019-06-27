@@ -2,8 +2,6 @@
 layout: post
 title:  "매드업 기술 면접 질문"
 author: Jason
-categories: [ interview ]
-tags: [interview]
 image: assets/images/14.jpg
 featured: true
 ---

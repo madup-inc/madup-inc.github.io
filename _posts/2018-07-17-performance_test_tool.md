@@ -2,8 +2,6 @@
 layout: post
 title:  "서버 퍼포먼스 테스트 툴 사용후기"
 author: Willy
-categories: [ server, test ]
-tags: [wrk, vegeta, gatling]
 image: assets/images/1.jpg
 featured: true
 ---

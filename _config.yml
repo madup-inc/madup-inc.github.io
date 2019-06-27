@@ -26,13 +26,13 @@ authors:
     description: "매드업의 서버 개발자입니다"
   Wendy:
     name: Wendy
-    display_name: byaracho
+    display_name: Wendy
     email: aracho@madup.com
     web: https://github.com/byaracho
     description: "매드업의 데이터 분석가입니다"
   Cindy:
     name: Cindy
-    display_name: fireppunch
+    display_name: Cindy
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: ymr@madup.com
     web: https://github.com/firepunch
