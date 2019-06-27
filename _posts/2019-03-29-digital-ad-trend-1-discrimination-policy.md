@@ -1,21 +1,13 @@
 ---
 layout: post
-title: [광고 트렌드 따라잡기 1] 광고에도 차별 금지 정책이 적용된다고?
+title:  "[광고 트렌드 따라잡기 1] 광고에도 차별 금지 정책이 적용된다고?"
 author: Wendy
-date: 2019-03-29
+categories: [ ad ]
+image: https://user-images.githubusercontent.com/35296703/55201832-34c43280-5208-11e9-94eb-dd06ce731e02.jpg
+featured: true
 ---
-
   
-
-### **[광고 트렌드 따라잡기 1] 광고에도 차별 금지 정책이 적용된다고?**  
-
-  
-
-![digital-marketing-1433427_1280](https://user-images.githubusercontent.com/35296703/55201832-34c43280-5208-11e9-94eb-dd06ce731e02.jpg)
-
 페이스북 광고를 집행해보신 적이 있다면, 한번쯤은 타게팅 옵션을 사용해보신 경험이 있으실 겁니다. 페이스북은 로그인 기반의 사용 환경과, SNS라는 매체 특성 때문에 다른 매체보다 좀 더 세부적이고 정확한 타게팅을 자랑합니다. 하지만 타게팅 옵션을 자세히 살펴보면 약간 이상한 점을 발견할 수 있습니다.  
-
-  
 
 ![targeting](https://user-images.githubusercontent.com/35296703/55201729-b10a4600-5207-11e9-9d77-886d3345dea7.png) 
 
