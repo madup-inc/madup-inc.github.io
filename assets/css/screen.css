@@ -176,20 +176,19 @@ section.recent-posts {
     margin-bottom: 15px;
 }
 
-.author-thumb {
-    width: 40px;
-    height: 40px;
+.meta-footer-thumb .author-thumb {
+    max-width: 36px;
     margin-right: 13px;
+}
+
+.author-thumb {
+    width: 100%;
+    max-width: 72px;
     border-radius: 100%;
 }
 
 .post-top-meta {
     margin-bottom: 2rem;
-}
-
-.post-top-meta .author-thumb {
-    width: 72px;
-    height: 72px;
 }
 
 .post-top-meta.authorpage .author-thumb {
@@ -203,7 +202,6 @@ section.recent-posts {
 }
 
 .post-top-meta .author-description {
-    margin-bottom: 5px;
     margin-top: 5px;
     font-size: 0.95rem;
 }

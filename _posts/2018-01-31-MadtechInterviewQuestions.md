@@ -2,7 +2,7 @@
 layout: post
 title:  "매드업 기술 면접 질문"
 author: Jason
-image: assets/images/14.jpg
+image: assets/images/thumbnail/4k-wallpaper-clean-desk-1420709.jpg
 featured: true
 ---
 
