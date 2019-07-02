@@ -1,7 +1,7 @@
 # Site
 name: "MadTech"
 title: "MadTech"
-description: "MadTech Blog"
+description: "애드테크 기반 모바일 퍼모먼스 마케팅, 매드업 블로그입니다."
 #meta_description: ""
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
