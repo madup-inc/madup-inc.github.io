@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[광고 트렌드 따라잡기 1] 광고에도 차별 금지 정책이 적용된다고?"
+title:  "광고에도 차별 금지 정책이 적용된다고?"
 author: Wendy
 image: https://user-images.githubusercontent.com/35296703/55201832-34c43280-5208-11e9-94eb-dd06ce731e02.jpg
 featured: true
