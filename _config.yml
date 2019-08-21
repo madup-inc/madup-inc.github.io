@@ -41,6 +41,10 @@ authors:
     name: Chris
     display_name: Chris
     web: https://github.com/jeonghwan-kim
+  seunghyun:
+    name: seunghyun
+    display_name: 장승현
+    description: "매드업을 알리기 위해 키보드 위를 뛰어다니는 사람입니다!! 🏃‍♀️🏃‍♂️"
 
 # Plugins
 plugins:
