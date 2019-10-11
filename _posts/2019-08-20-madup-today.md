@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "MADUP TODAY #1 오늘의 매드업 테크사업부"
+title:  "오늘의 매드업 테크사업부"
 author: seunghyun
-image: assets/images/thumbnail.jpg
+image: assets/images/thumbnail/madup_today.jpg
 featured: true
 ---
 
-매드업의 테크사업부를 소개합니다. 최초공개. 두둥.
+[MADUP TODAY #1] 매드업의 테크사업부를 소개합니다. 최초공개. 두둥.
+
+---
 
 ![입장! / 문앞 동호님](../assets/images/madup1-1.jpg)
 
@@ -118,8 +120,10 @@ featured: true
 
 
 
-[#매드업 홈페이지 바로가기](http://madup.com/)  
-[#매드업 지원자를 위한 영상 -1](https://www.youtube.com/watch?v=6eegjYQv9WM&t=87s) 
-[#매드업 지원자를 위한 영상 -2](https://www.youtube.com/watch?v=4r6D8bP53IE&t=224s)  
-[#애드테크 기업 매드업, 134억 규모 시리즈B 투자 유치](http://www.datanet.co.kr/news/articleView.html?idxno=124884)  
-[#모바일 애드테크 신인류 매드업](https://www.venturesquare.net/771278)  
+[매드업 홈페이지 바로가기](http://madup.com/)  
+  
+[매드업 지원자를 위한 영상 -1](https://www.youtube.com/watch?v=6eegjYQv9WM&t=87s) /
+[매드업 지원자를 위한 영상 -2](https://www.youtube.com/watch?v=4r6D8bP53IE&t=224s)  
+  
+[애드테크 기업 매드업, 134억 규모 시리즈B 투자 유치](http://www.datanet.co.kr/news/articleView.html?idxno=124884) / 
+[모바일 애드테크 신인류 '매드업'](https://www.venturesquare.net/771278)  
