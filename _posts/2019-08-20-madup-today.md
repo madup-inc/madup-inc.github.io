@@ -4,10 +4,7 @@ title:  "오늘의 매드업 테크사업부"
 author: seunghyun
 image: assets/images/thumbnail/madup_today.jpg
 featured: true
----
-
-[MADUP TODAY #1] 매드업의 테크사업부를 소개합니다. 최초공개. 두둥.
-
+excerpt: MADUP TODAY #1 || 매드업의 테크사업부를 소개합니다. 최초공개. 두둥.
 ---
 
 ![입장! / 문앞 동호님](../assets/images/madup1-1.jpg)
