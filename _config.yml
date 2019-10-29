@@ -33,7 +33,6 @@ authors:
   Cindy:
     name: Cindy
     display_name: Cindy
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: ymr@madup.com
     web: https://github.com/firepunch
     description: "매드업의 프론트엔드 개발자입니다"
@@ -45,6 +44,10 @@ authors:
     name: seunghyun
     display_name: 장승현
     description: "매드업을 알리기 위해 키보드 위를 뛰어다니는 사람입니다!! 🏃‍♀️🏃‍♂️"
+  erick:
+    name: erick
+    display_name: Erick
+    description: "매드업 간판입니다"
 
 # Plugins
 plugins:
