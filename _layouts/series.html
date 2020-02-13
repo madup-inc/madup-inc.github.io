@@ -5,7 +5,7 @@ permalink: "/categories.html"
 ---
 
 <div class="row listrecent">
-  {% for category in site.categories %}
+  {% for category in site.categories reversed %}
   <div class="section-title col-md-12 mt-4">
     <h2 id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize">{{ category[0] }}</span> 시리즈</h2>
   </div>
