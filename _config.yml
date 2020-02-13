@@ -3,10 +3,10 @@ name: "MadTech"
 title: "MadTech"
 description: "애드테크 기반 모바일 퍼포먼스 마케팅, 매드업 블로그입니다."
 #meta_description: ""
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-google_analytics: 'UA-126392657-1'
-disqus: 'maedeueob-gisulbeulrogeu'
+logo: "assets/images/logo.png"
+favicon: "assets/images/favicon.ico"
+google_analytics: "UA-126392657-1"
+disqus: "maedeueob-gisulbeulrogeu"
 include: ["_pages"]
 permalink: /:title/
 
@@ -21,6 +21,7 @@ authors:
   Willy:
     name: Willy
     display_name: Willy
+    avatar: "assets/avatars/willy.png"
     email: qowns8@madup.com
     web: https://github.com/qowns8
     description: "매드업의 서버 개발자입니다"
@@ -43,11 +44,18 @@ authors:
   seunghyun:
     name: seunghyun
     display_name: 장승현
+    avatar: "assets/avatars/seunghyun.jpg"
     description: "매드업을 알리기 위해 키보드 위를 뛰어다니는 사람입니다!! 🏃‍♀️🏃‍♂️"
   erick:
     name: erick
     display_name: Erick
+    avatar: "assets/avatars/erick.jpg"
     description: "매드업 간판입니다"
+  soyeon:
+    name: soyeon
+    display_name: 박소연
+    avatar: "assets/avatars/soyeon.jpg"
+    description: "매드업의 이야기가 있는 곳이라면 어디든지 달려갑니다!"
 
 # Plugins
 plugins:
@@ -63,7 +71,7 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: "/category/:name/"
 
 # Pagination
 paginate: 6
