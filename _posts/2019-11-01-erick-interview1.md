@@ -2,12 +2,11 @@
 layout: post
 title:  "이동호 대표 인터뷰 - 1"
 author: seunghyun
+categories: [ MADUP TODAY ]
 image: assets/images/thumbnail/madup_today2_1.jpg
 featured: true
 excerpt:  이동호 대표의 매드업 테크사업부 이야기!
 ---
-
-*MADUP TODAY 2-1 - Erick*
 
 제가 가장 자주 사용하는 슬랙 이모지는 **:choongsung_dongho:** 입니다.  
 

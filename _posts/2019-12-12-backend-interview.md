@@ -2,12 +2,11 @@
 layout: post
 title:  "백엔드 개발자 인터뷰"
 author: seunghyun
+categories: [ MADUP TODAY ]
 image: assets/images/thumbnail/madup_today4.jpg
 featured: true
 excerpt: 백엔드 개발자 머릿속. 내가 컴퓨터인지.. 컴퓨터가 나인지..
 ---
-
-*MADUP TODAY 4 - Tim, John*
 
 “저희 별로 안 친해서 가까이서 사진 안 찍을게요”  
 “맞아요. 그냥 떨어져서 찍을래요”  

@@ -2,12 +2,11 @@
 layout: post
 title:  "프론트엔드 개발자 인터뷰"
 author: seunghyun
+categories: [ MADUP TODAY ]
 image: assets/images/thumbnail/madup_today3.JPG
 featured: true
 excerpt: We have Ethan & Cindy
 ---
-
-*MADUP TODAY 4 - Ethan, Cindy*
 
 이번 콘텐츠로 프론트엔드 개발자 인터뷰를 진행하기로 했습니다. 바로 떠오른 이름은 바로 미림님, 현승님. 테크사업부에서는 신디와 이든이라고 부릅니다. 테크사업부는 다른 부서와 다르게 서로를 영어 이름으로 부릅니다. 제가 부르던 방식인 ‘님’ 호칭이 아닌 영어 이름으로 언급하다보니 (물론 방식에 따른 장단점이 있겠지만) 높임말을 사용하는 데에 드는 수고로움이 없어 소통이 더 편해진 것 같습니다.    
 
