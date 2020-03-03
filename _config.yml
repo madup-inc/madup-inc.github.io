@@ -56,6 +56,11 @@ authors:
     display_name: 박소연
     avatar: "assets/avatars/soyeon.jpg"
     description: "매드업의 이야기가 있는 곳이라면 어디든지 달려갑니다!"
+  jeffrey:
+    name: jeffrey
+    display_name: Jeffrey
+    avatar: "assets/avatars/jeffrey.jpg"
+    description: "음악과 커피를 사랑하는 흔한 프로그래머"
 
 # Plugins
 plugins:
