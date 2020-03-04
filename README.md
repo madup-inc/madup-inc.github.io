@@ -20,6 +20,13 @@ $ jekyll serve
 
 [개발 서버](http://127.0.0.1:4000)에 접속하면 블로그를 확인할 수 있다. 
 
+
+## Images
+
+- 썸네일은 assets/images/thumbnail 경로에 {글제목}을 파일명으로 저장한다.
+- 글에 첨부하는 이미지는 assets/images/{글제목} 경로에 저장한다.
+
+
 ## Disqus
 
-_config.yml 파일에서 직접 등록한다.  
+- _config.yml 파일에서 직접 등록한다.  
