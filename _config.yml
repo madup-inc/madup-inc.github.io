@@ -66,6 +66,11 @@ authors:
     display_name: Jayden
     avatar: "assets/avatars/jayden.jpg"
     description: "얼굴이 작아보이게 벤티 머그컵과 함께 ㅎ 매드업에서 꿈을 이뤄드립니다."
+  dajyu:
+    name: dajyu
+    display_name: Dajyu
+    avatar: "assets/avatars/dajyu.png"
+    description: "매드업에서 성장중인 프론트엔드 개발자"
 
 # Plugins
 plugins:
