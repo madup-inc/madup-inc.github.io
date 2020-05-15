@@ -4,6 +4,7 @@ title:  "매드업 기술 면접 질문"
 author: Jason
 image: assets/images/thumbnail/4k-wallpaper-clean-desk-1420709.jpg
 featured: true
+hidden: true
 ---
 
 실제 업무하면서 생각해보던 내용을 면접자분과 얘기해보고 싶어 작성했습니다. 저희도 정말 몰라서 물어보는 것들도 섞여 있을 수 있습니다; 서로의 의견을 교환할 수 있는 자리가 되었으면 합니다. :-)
