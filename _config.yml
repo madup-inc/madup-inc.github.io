@@ -71,6 +71,11 @@ authors:
     display_name: Dajyu
     avatar: "assets/avatars/dajyu.png"
     description: "매드업에서 성장중인 프론트엔드 개발자"
+  Spike:
+    name: Spike
+    display_name: Spike
+    avatar: "assets/avatars/spike.png"
+    description: "카페인, 니코틴, 알코올, 파이썬 중독자"
 
 # Plugins
 plugins:
