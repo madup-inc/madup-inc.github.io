@@ -86,6 +86,11 @@ authors:
     display_name: 김아림
     avatar: "assets/avatars/ahrim.jpg"
     description: "MAD하게 성장 중인 매드업을 기록합니다!"
+  Ryan:
+    name: Ryan
+    display_name: Ryan
+    avatar: "assets/avatars/ryan.jpeg"
+    description: "일 많이 가지고 오는 돌격대장"
 
 # Plugins
 plugins:
