@@ -67,5 +67,5 @@ AI 퍼스트 시대에 매드업은 얼마나 성장하고 또 어떤 모습으�
 [매드업이 잘하는 AD-TECH(1)](https://tech.madup.com/madup-adtech-1/)
 
 **매드업은 지금 채용 중!**
-[매드업 채용 바로가기](https://www.notion.so/78775178b17243c8b00112447343ab22)
+[매드업 채용 바로가기](https://www.notion.so/maduphr/f5cafd7a9ab645889a843dcb2bc8605e)
 

@@ -89,7 +89,4 @@ excerpt: 우리는 생산성을 향상시키는 공간의 힘을 믿습니다. �
 **매드업은 채용 중!**  
 [매드업 채용 바로가기][madup]
 
-[madup]: <https://www.notion.so/78775178b17243c8b00112447343ab22>
-
-
-
+[madup]: <https://www.notion.so/maduphr/f5cafd7a9ab645889a843dcb2bc8605e>

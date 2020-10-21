@@ -90,5 +90,5 @@ excerpt: 매일 수십 장의 지원서를 검토하는 우리가 '좋은 인재
 hr@madit.kr로 이력서를 전달해주세요 :)  
 
 **추천보다 내가 직접 지원하고 싶다면?**  
-[매드업 채용 바로가기](https://www.notion.so/78775178b17243c8b00112447343ab22)
+[매드업 채용 바로가기](https://www.notion.so/maduphr/f5cafd7a9ab645889a843dcb2bc8605e)
 
