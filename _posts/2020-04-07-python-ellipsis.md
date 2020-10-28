@@ -2,6 +2,7 @@
 layout: post
 title: "파이썬 세 개의 점, Ellipsis 객체는 무엇인가요?"
 author: Jason
+categories: [ Tech ]
 image: assets/images/thumbnail/python-ellipsis.jpg
 featured: true
 excerpt: 파이썬에서 사용되는 Ellipsis 객체의 여러가지 용법에 관한 내용을 번역하였습니다.

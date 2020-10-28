@@ -2,7 +2,6 @@
 layout: post
 title: "화성에 간 어느 개발자의 편지" 
 author: soyeon
-categories: [ 맫력어필 ]
 image: assets/images/thumbnail/letter-from-mars.jpg
 featured: true
 excerpt: 카이스트 연구원에서 대기업 팀장으로, 그리고 다시 스타트업이라는 모험을 시작하기까지.

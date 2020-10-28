@@ -2,7 +2,6 @@
 layout: post
 title:  "누구보다 태그스럽게, 오늘도 TAG팀답게"
 author: soyeon
-categories : [ 맫력어필 ]
 image: assets/images/thumbnail/tag-interview.jpg
 featured: true
 noThumb: true

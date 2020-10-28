@@ -2,6 +2,7 @@
 layout: post
 title:  "Typescript의 단점" 
 author: Willy
+categories: [ Tech ]
 image: assets/images/thumbnail/typescript.jpg
 featured: true
 excerpt: 아무도 말해주지 않는 Typescript의 각오해야 할 단점

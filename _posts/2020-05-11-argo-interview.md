@@ -2,7 +2,6 @@
 layout: post
 title:  "데이터가 흐르는 바다, 아르고 원정대가 간다" 
 author: soyeon
-categories: [ 맫력어필 ]
 image: assets/images/thumbnail/argo-interview.jpg
 featured: true
 noThumb: true

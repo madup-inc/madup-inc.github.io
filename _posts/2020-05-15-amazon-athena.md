@@ -2,6 +2,7 @@
 layout: post
 title:  "Amazon Athena를 통해 '데일리 광고 성과 리포트' 자동화하기" 
 author: Wendy
+categories: [ Tech ]
 image: assets/images/thumbnail/amazon-athena.jpg
 featured: true
 excerpt: Amazon Athena를 도입하게 된 과정과 간단한 사용법에 대하여

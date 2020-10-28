@@ -2,6 +2,7 @@
 layout: post
 title:  "도커 레지스트리 만들기" 
 author: Spike
+categories: [ Tech ]
 tags: 'docker, registry, private, letsencrypt, cerbot, ssl, https, nginx'
 image: assets/images/thumbnail/docker-registry.jpg
 featured: true

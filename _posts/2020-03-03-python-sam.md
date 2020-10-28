@@ -2,6 +2,7 @@
 layout: post
 title:  "AWS에서 SAM 서비스를 이용해 파이썬 서버리스 프로젝트를 만드는 방법"
 author: jeffrey
+categories: [ Tech ]
 image: assets/images/thumbnail/art-background-black-633409.jpg
 featured: true
 excerpt: SAM cli 도구를 이용하여  CloudFormation으로 배포해 스택을 생성하는 방법에 대한 포스팅

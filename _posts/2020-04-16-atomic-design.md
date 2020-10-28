@@ -2,6 +2,7 @@
 layout: post
 title: "리액트와 아토믹 디자인 패턴"
 author: dajyu
+categories: [ Tech ]
 image: assets/images/thumbnail/bump-collaboration-colleagues-1068523.jpg
 featured: true
 excerpt: 아토믹 디자인 시스템을 통한 내부 적용사례입니다.

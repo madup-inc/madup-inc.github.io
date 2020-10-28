@@ -2,7 +2,6 @@
 layout: post
 title:  "아는 개발자 추천하고 아이패드 받자" 
 author: soyeon
-categories: [ 맫력어필 ]
 image: assets/images/thumbnail/recommend-event.jpg
 featured: true
 noThumb: true

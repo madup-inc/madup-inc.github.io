@@ -2,6 +2,7 @@
 layout: post
 title:  "서버 퍼포먼스 테스트 툴 사용후기"
 author: Willy
+categories: [ Tech ]
 image: assets/images/thumbnail/books-connection-contemporary-459654.jpg
 featured: true
 ---

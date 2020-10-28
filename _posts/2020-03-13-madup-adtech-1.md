@@ -2,7 +2,7 @@
 layout: post
 title:  "매드업이 잘하는 AD-TECH (1)"
 author: soyeon
-categories: [ 맫력어필 ]
+categories: [ AdTech ]
 image: assets/images/thumbnail/madup-adtech-1.jpg
 featured: true
 excerpt: 매드업이 들려주는 요즘 '핫한' 애드테크 이야기
