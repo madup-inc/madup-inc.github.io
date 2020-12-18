@@ -91,6 +91,11 @@ authors:
     display_name: Ryan
     avatar: "assets/avatars/ryan.jpeg"
     description: "일 많이 가지고 오는 돌격대장"
+  Keating:
+    name: Keating
+    display_name: Keating
+    avatar: "assets/avatars/Keating.png"
+    description: "오늘보다 더 나은 내일을 코딩합니다."
 
 # Plugins
 plugins:

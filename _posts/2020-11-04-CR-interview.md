@@ -3,7 +3,6 @@ layout: post
 title: "섬세하고, 담대하게. CR팀이 고객과 성장하는 방법"
 author: Ahrim
 image: assets/images/thumbnail/CR-interview.jpg
-featured: ture
 noThumb: true
 excerpt: 디지털 광고 시장에 큰 울림이 될 작은 거인들
 ---
