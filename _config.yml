@@ -96,6 +96,9 @@ authors:
     display_name: Keating
     avatar: "assets/avatars/Keating.png"
     description: "오늘보다 더 나은 내일을 코딩합니다."
+  John:
+    name: John
+    display_name: John
 
 # Plugins
 plugins:
