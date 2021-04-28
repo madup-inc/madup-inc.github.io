@@ -1,15 +1,22 @@
 ---
-# Add a comment to make this file sass-y.
-# Change this file for any custom CSS.
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-/* We need to add display:inline in order to align the '>>' of the 'read more' link */
-.post-excerpt p {
-	display:inline;
-}
+@import "vendor/system-font-css/_system-font";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax",
-    "starsnonscss"
-;
+// 1. Custom variables and variable overwrites.
+@import "theme/variables";
+
+// 2. Import default variables and available mixins.
+@import "vendor/uikit/variables-theme";
+@import "vendor/uikit/mixins-theme";
+
+// 3. Custom mixin overwrites.
+@import "theme/mixins";
+@import "theme/_sharer";
+
+// 4. Import UIkit.
+@import "theme/uikit";
+
+// 5. Other vendor styles
+@import "vendor/syntax-highlighting/github";
