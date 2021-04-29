@@ -5,8 +5,8 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title:              Étoile
-description:        Magazine Jekyll theme for writers and bloggers.
+title:              MADTECH
+description:        매드업 블로그
 url:                # Site base hostname & protocol, e.g. http://example.com
 baseurl:            "" # Site subpath, e.g. /blog
 logo_image:
@@ -17,14 +17,14 @@ date_format:        "%B %-d, %Y" # refer to http://shopify.github.io/liquid/filt
 uploads:            /uploads/ # Path to post content assets directory i.e post images, pdfs etc
 paginate:           7 # Number of posts displayed on blog page
 paginate_path:      "/blog/:num/" # Blog path
-google_analytics:   # Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics:   UA-126392657-1
 disqus:
   shortname:        # Disqus comments shortname, requires Disqus account https://disqus.com/
 
 instagram_accesstoken: 
 
 footer:             # Default footer image settings
-  copyright:        Made by <a href="https://unbound.studio/">human</a> in Bratislava, Slovakia.
+  copyright:        COPYRIGHT ©2021 MADUP INC. ALL RIGHT RESERVED.
 
 # navbar settings
 navbar_primary:
@@ -36,25 +36,25 @@ navbar_primary:
 social_share:
   twitter:          true
   facebook:         true
-  linkedin:         true
-  pinterest:        true
-  reddit:           true
+  linkedin:         false
+  pinterest:        false
+  reddit:           false
 
 # Social networks
 social_networks:
-  email:          
-  website:        
-  facebook:         https://www.facebook.com/
+  email:            contact@madup.com
+  website:          https://madup.com/
+  facebook:         https://www.facebook.com/%EB%A7%A4%EB%93%9C%EC%97%85-MADUP-1001144700008162
   flickr:         
   dribbble:       
   github:         
   reddit:         
-  instagram:        https://www.instagram.com/
-  linkedin:       
+  instagram:        https://www.instagram.com/madup.communication/
+  linkedin:         https://www.linkedin.com/company/madup
   pinterest:      
-  twitter:          https://twitter.com/
+  twitter:
   vimeo:          
-  youtube:          https://www.youtube.com/    
+  youtube:          https://www.youtube.com/channel/UCH2iVO4M5xd8d5WytiICN3g
 
 # Strings
 strings:

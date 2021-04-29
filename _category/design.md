@@ -1,0 +1,4 @@
+---
+tag: design
+permalink: "/design"
+---

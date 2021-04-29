@@ -2,23 +2,17 @@
 - title: Home
   url: /
 
-- title: Blog
-  url: /blog/
-
-- title: Business
-  url: /category/business/
+- title: Insight
+  url: /category/insight
 
 - title: Culture
-  url: /category/culture/
+  url: /category/culture
 
-- title: Travel
-  url: /category/travel/
+- title: People
+  url: /category/people
 
-- title: Sport
-  url: /category/sport/
+- title: Tech
+  url: /category/tech
 
-- title: Contact
-  url: /contact/
-  
-- title: 404
-  url: /404/
+- title: Design
+  url: /category/design

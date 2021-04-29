@@ -5,32 +5,23 @@ center:
   - title: Home
     url: /
 
-  - title: All Posts
-    url: /blog/
-
-  - title: Business
-    url: /category/business/
-
-  - title: Culture
-    url: /category/culture/
-
-  - title: Travel
-    url: /category/travel/
-
-  - title: Sport
-    url: /category/sport/
-
-  - title: Pages
+  - title: MADUP Inside
     dropdown:
-      - title: Blog
-        url: /blog/
-      - title: Contact
-        url: /contact/
-      - title: Sidebar Left
-        url: /sidebar-left/
-      - title: Sidebar Right
-        url: /sidebar-right/
-      - title: 404
-        url: /404/
+      - title: Insight
+        url: /category/insight
+      - title: Culture
+        url: /category/culture
+      - title: People
+        url: /category/people
+
+  - title: Tech
+    url: /category/tech
+
+  - title: Design
+    url: /category/design
+
+  - title: Career
+    url: https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee
+
 
 right:

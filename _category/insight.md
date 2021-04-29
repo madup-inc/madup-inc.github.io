@@ -1,0 +1,4 @@
+---
+tag: insight
+permalink: "/insight"
+---

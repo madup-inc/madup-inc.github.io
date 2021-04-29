@@ -16,33 +16,7 @@ page:
 footer:
   - widget: recent
     title: RECENT POSTS
-    count: 4
-
-  - widget: links
-    title: ABOUT
-    links:
-      - title: "About Us"
-        url: /#/
-      - title: "Our Story"
-        url: /#/
-      - title: "Contribute"
-        url: /#/
-      - title: "Terms"
-        url: /#/
-      - title: "Contact"
-        url: /contact/
-
-  - widget: links
-    title: PRODUCTS
-    links:
-      - title: "Advertising"
-        url: /#/
-      - title: "Featured Story"
-        url: /#/
-      - title: "Donations"
-        url: /#/
-      - title: "Charity"
-        url: /#/
+    count: 3
 
   - widget: categories
     title: CATEGORIES

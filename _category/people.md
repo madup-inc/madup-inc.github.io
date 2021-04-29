@@ -1,0 +1,4 @@
+---
+tag: people
+permalink: "/people"
+---
