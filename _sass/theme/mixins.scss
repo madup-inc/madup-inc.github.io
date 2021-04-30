@@ -65,6 +65,8 @@
     font-size: 13px;
   }
   .card-categories {
+      display: flex;
+      align-items: center;
       font-size: 0.9375rem;
       margin-bottom: 7px;
   }
@@ -309,6 +311,15 @@ header .uk-sticky-fixed {
     &:hover {
       color: $color-dark;
     }
+  }
+  .tag-primary {
+    color: $global-inverse-color;
+    background-color: $global-light-background;
+    text-transform: lowercase;
+    font-size: 0.8375em;
+    padding: 0.2em 0.3em 0;
+    margin-left: 0.5em;
+    cursor: default;
   }
     .font-smoothing {
         -webkit-font-smoothing: antialiased;

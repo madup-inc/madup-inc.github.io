@@ -21,6 +21,9 @@
                   <a class="link-primary" href="/category/{{ category }}">{{category}}</a>
                   {% unless forloop.last %}{% endunless %}
               {% endfor %}
+              {% if post.tag and post.tag.last != "spotlight" and post.tag.last != "featured" %}
+                  <span class="tag-primary">{{post.tag.last}}</span>
+              {% endif %}
             </div>
           {% endif %}
           <h3 class="uk-card-title uk-article-title article-title-font"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
