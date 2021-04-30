@@ -1,4 +1,4 @@
 ---
 tag: people
-permalink: "/people"
+permalink: "/category/people"
 ---

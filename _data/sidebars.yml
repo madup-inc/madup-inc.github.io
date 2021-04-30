@@ -14,18 +14,6 @@ page:
     
 # Footer sidebar widgets
 footer:
-  - widget: recent
-    title: RECENT POSTS
-    count: 3
-
-  - widget: categories
-    title: CATEGORIES
-    count: 5
-
-  - widget: authors
-    title: CONTRIBUTORS
-    count: 5
-
   - widget: about
     # content: Content of some sort..
     copyright: true

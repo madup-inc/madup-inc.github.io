@@ -1,4 +1,4 @@
 ---
 tag: tech
-permalink: "/tech"
+permalink: "/category/tech"
 ---

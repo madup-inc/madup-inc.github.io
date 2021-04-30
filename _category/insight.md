@@ -1,4 +1,4 @@
 ---
 tag: insight
-permalink: "/insight"
+permalink: "/category/insight"
 ---

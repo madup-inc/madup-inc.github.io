@@ -19,7 +19,7 @@ paginate:           7 # Number of posts displayed on blog page
 paginate_path:      "/blog/:num/" # Blog path
 google_analytics:   UA-126392657-1
 disqus:
-  shortname:        # Disqus comments shortname, requires Disqus account https://disqus.com/
+  shortname:        maedeueob-gisulbeulrogeu # Disqus comments shortname, requires Disqus account https://disqus.com/
 
 instagram_accesstoken: 
 
@@ -43,13 +43,13 @@ social_share:
 # Social networks
 social_networks:
   email:            contact@madup.com
-  website:          https://madup.com/
+  website:          https://madup.com
   facebook:         https://www.facebook.com/%EB%A7%A4%EB%93%9C%EC%97%85-MADUP-1001144700008162
   flickr:         
   dribbble:       
   github:         
   reddit:         
-  instagram:        https://www.instagram.com/madup.communication/
+  instagram:        https://www.instagram.com/madup.communication
   linkedin:         https://www.linkedin.com/company/madup
   pinterest:      
   twitter:
