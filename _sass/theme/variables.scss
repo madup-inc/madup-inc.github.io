@@ -1,9 +1,10 @@
 // Modify primary template color
 $global-primary-background: #de7a93;
+$global-light-background: rgba(225, 136, 158, 0.6);
 // Modify body font
-$global-font-family: 'Lora', serif; 
+$global-font-family: 'Roboto', sans-serif;
 // Modify article title font
-$aticle-title-font-family: 'ZCOOL XiaoWei', serif;
+$aticle-title-font-family: 'Roboto', sans-serif;
 
 // Theme variables
 $global-secondary-background: #121212;
@@ -53,7 +54,8 @@ $form-large-font-size: $global-font-size;
 
 $button-text-transform: uppercase;
 $button-border-width: 0;
-$button-large-font-size: 14px;;
+$button-large-font-size: 14px;
+;
 
 $margin-large-margin: 40px;
 $margin-large-margin-l: 40px;
@@ -90,7 +92,7 @@ $article-meta-font-size: 1.0625rem;
 $article-meta-line-height: 1.6;
 $article-meta-color: $base-body-color;
 
-$icon-button-background:                         $background-dark;
+$icon-button-background: $background-dark;
 $icon-button-color: #fff;
 $icon-button-hover-color: #fff;
 $icon-button-active-color: #fff;

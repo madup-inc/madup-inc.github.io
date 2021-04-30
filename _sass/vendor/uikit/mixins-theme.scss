@@ -191,6 +191,20 @@
         @if(mixin-exists(hook-inverse-base-link-hover)) {@include hook-inverse-base-link-hover();}
     }
 
+    .content-primary {
+        a,
+        .uk-link {
+            color: $base-em-color;
+        }
+        a:hover,
+        .uk-link:hover {
+            color: #000;
+        }
+        em {
+            color: #000;
+        }
+    }
+
     //
     // Code
     //
