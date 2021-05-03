@@ -25,7 +25,11 @@
             {% endif %}
           </div>
         {% endif %}
-      <h3 class="card-title-small article-title-font"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <h3 class="card-title-small article-title-font">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title  | replace: '담대하게. CR팀이', '담대하게. <br/> CR팀이' | replace: '등장한 상큼한', '등장한 <br/> 상큼한' }}
+        </a>
+      </h3>
       <div class="content-secondary">{{ post.excerpt }}</div>
       <div class="card-meta">
         <b>{{ site.strings.author_by | default: 'By' }} <a href="{{ author.url }}" rel="author" title="{{ author.title }}">{{ author.title }}</a></b>
