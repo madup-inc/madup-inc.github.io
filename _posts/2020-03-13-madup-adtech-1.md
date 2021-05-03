@@ -3,7 +3,7 @@ title: 매드업이 잘하는 AD-TECH (1)
 excerpt: 매드업이 들려주는 요즘 '핫한' 애드테크 이야기
 image: madup-adtech-1/thumbnail.jpg
 categories: [insight]
-tag: [adtech]
+tag: [Adtech]
 author: soyeon
 ---
 

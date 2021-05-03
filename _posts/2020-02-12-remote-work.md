@@ -3,7 +3,6 @@ title: 자율적인 공간이 당신에게 주는 힘 - 매드업의 리모트 �
 excerpt: 우리는 생산성을 향상시키는 공간의 힘을 믿습니다. 매드업의 재택 근무, 주변 근무 이야기.
 image: remote-work/thumbnail.jpg
 categories: [culture]
-tag: [맫력어필]
 author: soyeon
 ---
 

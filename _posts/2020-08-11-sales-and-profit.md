@@ -3,7 +3,7 @@ title: 수치가 말해주지 않는 사실들
 excerpt: 수치가 말해주지 못하는 매드업의 성장을 파헤치다
 image: sales-and-profit/thumbnail.jpg
 categories: [insight]
-tag: [spotlight, adtech]
+tag: [spotlight]
 author: soyeon
 ---
 

@@ -3,7 +3,6 @@ title: 폭풍성장 매드업은 왜 추천채용을 할까?
 excerpt: 매일 수십 장의 지원서를 검토하는 우리가 '좋은 인재'를 찾는 특별한 방법에 대하여
 image: recommended-recruitment/thumbnail.jpg
 categories: [culture]
-tag: [맫력어필]
 author: soyeon
 ---
 
