@@ -3,7 +3,7 @@ title: 광고에도 차별 금지 정책이 적용된다고?
 excerpt: 타게팅 옵션 살펴보기
 image: https://user-images.githubusercontent.com/35296703/55201832-34c43280-5208-11e9-94eb-dd06ce731e02.jpg
 categories: [insight]
-tag: [adtech]
+tag: [Adtech]
 author: wendy
 ---
   
