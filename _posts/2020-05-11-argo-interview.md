@@ -1,21 +1,19 @@
 ---
-layout: post
-title:  "데이터가 흐르는 바다, 아르고 원정대가 간다" 
-author: soyeon
-image: assets/images/thumbnail/argo-interview.jpg
-featured: true
-noThumb: true
+title: 데이터가 흐르는 바다, 아르고 원정대가 간다
 excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하여
+image: argo-interview/thumbnail.jpg
+categories: [people]
+author: soyeon
 ---
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/1.jpg">
+{% include image.html img="argo-interview/1.jpg" %}
 
 ## 매드업의 아르고호를 만나다
 아르고 원정대 이야기를 아시나요? 아르고호는 우리도 잘 알고 있는 고대 그리스 로마 신화에 나오는 모험의 배 이름이죠. 전설의 황금 양털을 가져오기 위해 아르고호에 탑승한 영웅들은 세이렌의 노랫소리에도 굴하지 않고, 부딪히면 결코 살아남을 수 없다는 무시무시한 절벽 사이로 돌진하기도 하는데요. 온갖 괴물과 거친 파도를 헤치며 용감하게 바다를 항해하는 이들의 이야기는 우리로 하여금 가슴을 두근거리게 하기도 하고, 진정 위대한 여정이 무엇인지 떠올리게 하기도 합니다. 
 
 그런데 매드업에도 모험의 바다를 누비는 아르고 원정대가 있습니다. 바로 매드업의 바다를 만드는 영웅들, 테크사업부의 ARGO팀입니다. 이들은 매드업의 모든 데이터가 잘 흐를 수 있도록 데이터의 바다를 구축하고, 흐르는 데이터 속에서 자유롭게 헤엄칠 사람들을 찾고 있다고 하는데요. 이들이 찾고자 하는 전설의 보물은 무엇일까요? 그리고, 이들이 항해 끝에 도달하고자 하는 미지의 영토는 어디일까요? ARGO팀을 직접 만나 이야기를 들어봤습니다.
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/2.jpg">
+{% include image.html img="argo-interview/2.jpg" %}
 
 ## 데이터가 흐르는 곳에 ARGO가 있다
 **반갑습니다, ARGO팀! 간단히 자기 소개 부탁드려요.**  
@@ -35,7 +33,7 @@ excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하�
 
 <span style="color:#ff4e00">**Chris**</span> : ARGO팀이 매드업을 위해 개발하는 플랫폼의 이름이 바로 ARGO인데요. 데이터의 수집, 전처리, 저장 및 분석에 대한 일련의 프로세스를 자동화 하고 효과적으로 운영할 수 있도록 해주는 플랫폼이죠. AWS Cloud 기반의 Serverless 환경으로 구축되어 있고, 보다 많은 자원을 필요로 하는 무거운 작업을 위해 ec2까지 확장 가능한 구조로 되어 있어요.
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/3.jpg">
+{% include image.html img="argo-interview/3.jpg" %}
 
 ## 미지의 영토를 향하여
 **ARGO팀의 비전은 '데이터가 흐르는 조직, 데이터가 흐르는 회사'라고 들었어요. 어떤 의미를 가지고 있는 비전인가요?**
@@ -54,7 +52,7 @@ excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하�
 
 이 단계에서 데이터 레이크가 완성이 되더라도 플랫폼 위에서 데이터가 자동화되어야 합니다. 그래야 AE분들의 소모적인 업무를 덜어주고, 회사 전체적으로 자동화가 되는 동시에 생산성이 높아지니까요.
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/4.jpg">
+{% include image.html img="argo-interview/4.jpg" %}
 
 **광고 운영 완전 자동화라니, 듣기만해도 놀라워요! 이 목표를 달성하기 위해 ARGO팀에서는 어떤 노력을 하고 있나요?**
 
@@ -71,7 +69,7 @@ excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하�
 
 <span style="color:#9656a1">**Jeffrey**</span> : ARGO팀은 최근 클라우드 서비스의 발달로 주가가 오르고 있는 Serverless 기술을 적극적으로 활용하고 있어요. 이 기술을 통해 종래의 서버 구축과 유지에 필요한 자원을 서비스 개발에 활용할 수 있기 때문에, 서비스의 품질에 집중할 수 있다는 장점이 있죠.
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/5.jpg">
+{% include image.html img="argo-interview/5.jpg" %}
 
 <span style="color:#ff4e00">**Chris**</span> : Jeffrey가 말해준 것처럼 ARGO팀에서는 어떻게 하면 최소한의 비용으로 최대 효율을 낼 수 있는가에 집중하고 있어요. ARGO 플랫폼이 클라우드 기반 서비스들을 활용하여 설계된 것도 그러한 이유라고 할 수 있죠.
 
@@ -86,7 +84,7 @@ excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하�
 
 모든 회사에서 가장 많이 쓰는 용어가 '플랫폼을 개발한다'는 것인데요. 플랫폼 개발이 안정화되는 것도 중요하지만 개발자로서는 신기술을 끊임없이 접해보고 접목시키는 것도 매우 중요해요. 이런 면에서 ARGO팀은 신기술을 도입할 때 주저하지 않고 실무에 적용하며, 그 때 그 때 실운영에서 피드백을 받을 수 있기 때문에 자랑할만한 개발문화를 가지고 있다고 생각해요.
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/6.JPG">
+{% include image.html img="argo-interview/6.JPG" %}
 
 **이렇게 끊임없이 도전하는 문화에 대해 팀원분들은 어떻게 느끼실지 궁금해지는데요.**
 
@@ -103,7 +101,7 @@ excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하�
 ## ARGO와 함께한 여정, 함께할 여정
 **데이터에 대해 잘 모르는 저도 ARGO팀의 매력에 빠질 것 같네요. 자유롭고 도전적인 팀 분위기 덕분에 세 분 모두 ARGO팀과 함께한 시간만큼 스스로도 많이 성장하셨을 것 같아요.**
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/7.jpg">
+{% include image.html img="argo-interview/7.jpg" %}
 
 <span style="color:#7474c1">**Wendy**</span> : 저는 처음에는 개발 직무가 아닌 데이터 기획 및 분석 직무로 입사했지만 데이터 엔지니어링에 관심을 갖게 되어 직무를 전환한 케이스인데요. 그만큼 직무 스킬을 늘리려고 항상 노력하고 있는데, 늘 새롭고 도전적인 과제가 주어지는 ARGO팀 덕분에 많이 배우고 성장하고 있어요.
 
@@ -119,7 +117,7 @@ excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하�
 
 <span style="color:#ff4e00">**Chris**</span> : 사실 저는 ARGO팀 초기 멤버가 아닙니다. 그러다보니 자연스레 기존의 시선과는 조금 다른 새로운 시선으로 ARGO를 바라볼 수 있었는데요. 기존에는 당연하게 생각했던 제한사항이나 불편함들도 '이렇게 하면 할 수 있지 않을까?'하는 도전적인 마음으로 접근하니 개선해 나갈 수 있었어요 👍
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/8.JPG">
+{% include image.html img="argo-interview/8.JPG" %}
 
 **앞으로 매드업에서 이루고 싶은 목표가 있나요?**
 
@@ -135,7 +133,7 @@ excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하�
 
 <span style="color:#9656a1">**Jeffrey**</span> : 개발 환경을 발전시켜서 ARGO팀의 팀원뿐만 아니라 회사 전체에 있는 개발자들의 개발 생산성을 높이고 싶어요. 이런 목표를 가지고 소프트웨어 개발 방법론, 환경 구축 등의 다양한 분야에 대해 공부하고 있습니다.
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/9.jpg">
+{% include image.html img="argo-interview/9.jpg" %}
 
 **ARGO팀은 '데이터에서 자유롭게 헤엄치고 싶은 사람'을 찾고 있다고 들었는데요. 해당 인재상은 어떤 사람일까요?**
 
@@ -157,7 +155,7 @@ excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하�
 '지금 내가 있는 이 곳에서 3년 후에 난 어떤 모습일까?'
 이 질문을 통해 저는 제가 했던 고민이 얼마나 부질 없는 것인지 깨닫게 되었어요. 제가 그랬듯 이 곳에서 하루하루 도전하고 성장하는 자신을 느끼고 싶으신 분이라면, 기다리고 있겠습니다.
 
-<img style="display:block;margin:0 auto;" src="../assets/images/argo-interview/10.jpg">
+{% include image.html img="argo-interview/10.jpg" %}
 
 흐르는 데이터 위에서 광고 운영 자동화라는 미지의 영토를 향해 두려움 없이 나아가는 ARGO호 원정대! ARGO팀과 대화를 나누고 나니, 이들은 진정 드넓은 바다를 항해할 용기를 가진 원정대 그 자체라는 생각이 들었습니다. 안정적인 것은 도전의 반대말이라고 하던가요. 휘몰아치는 파도도 폭풍우도 없는 잔잔한 호수같은 삶을 돌아볼 법도 하지만, ARGO팀은 오늘도 닻을 올리며 단단히 파도에 맞설 준비를 합니다. 
 
@@ -167,8 +165,5 @@ excerpt: 데이터가 흐르는 조직, 데이터가 흐르는 회사를 향하�
 
 매드업과 함께 데이터의 바다에서 헤엄치고 싶다면
 
-🌊[매드업 채용 바로가기][madup]🌊  
-👍[매드업 개발자 추천 이벤트 진행중 (~5/31)][event]👍
-
-[madup]: <https://www.notion.so/maduphr/f5cafd7a9ab645889a843dcb2bc8605e>
-[event]: <https://tech.madup.com/recommend-event>
+🌊[매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}🌊  
+👍매드업 개발자 추천 이벤트 진행중 (종료)👍

@@ -1,17 +1,12 @@
 ---
-layout: post
-title:  "서버 퍼포먼스 테스트 툴 사용후기"
-author: Willy
-categories: [ Tech ]
-image: assets/images/thumbnail/books-connection-contemporary-459654.jpg
-featured: true
+title: 서버 퍼포먼스 테스트 툴 사용후기
+excerpt: 퍼포먼스 테스트 툴 5개의 설치, 튜토리얼, 간단한 사용후기입니다.
+image: performance_test_tool/thumbnail.jpg
+categories: [tech]
+author: willy
 ---
 
-퍼포먼스 테스트 툴 5개의 설치, 튜토리얼, 간단한 사용후기입니다.
-
----
-
-# 개요
+## 개요
 
 5가지 서버 퍼포먼스 툴의 사용 예시와 용도, 장단점을 따지는 글입니다.
 예시는 거창한 내용은 아니고 설치 방법과 튜토리얼을 요약한 내용입니다.
@@ -25,7 +20,7 @@ featured: true
 1. `nGrinder`
 
 
-# 서버 환경
+## 서버 환경
 
 akka-http를 사용해서 요청을 받으면 로컬에 로깅하고 로그파일을 S3에 올리는 간단한 scala 프로그램을 만들었습니다. 
 
@@ -35,7 +30,7 @@ akka-http를 사용해서 요청을 받으면 로컬에 로깅하고 로그파�
 
 ---
 
-# Wrk
+## Wrk
 
 `Wrk`는 멀티 스레드로 사용자를 만들어 테스트하는 오픈소스 툴 입니다.
 
@@ -47,7 +42,7 @@ akka-http를 사용해서 요청을 받으면 로컬에 로깅하고 로그파�
   - 보낸 요청 개수가 정확하지 않음
   - 자세한 리포트나 그래프를 만들어주는 기능이 없음
 
-## 사용 예시
+### 사용 예시
 
     // wrk -t[쓰레드] -c[유저수] -d[시간] -s [lua script]  "http://url/postback" --latency
     
@@ -94,7 +89,7 @@ light java 라는 라이브러리 Github 페이지에서 다른 프레임워크�
 
 ---
 
-# Vegeta
+## Vegeta
 
 `Vegeta`는 go 기반으로 만들어졌고 Github 리드미에도 드래곤볼 베지터가 그려진 나름 센스있는 툴입니다.
 
@@ -107,7 +102,7 @@ light java 라는 라이브러리 Github 페이지에서 다른 프레임워크�
   - 검색시 드래곤볼의 베지터가 나와서 검색이 불편함
   - 어떤 파라미터가 있는지 확인이 불편함 (그냥 Readme 문서)
 
-## 사용예시
+### 사용예시
 
     //echo [method url] | vageta attack -[시간] -[시간당 보내는 개수] -[시간제한] | tee [에러셋 리포트 이름] | vegeta report
     
@@ -123,7 +118,7 @@ light java 라는 라이브러리 Github 페이지에서 다른 프레임워크�
     Error Set:
 
 
-## 후기
+### 후기
 
 `Wrk`와 다르게 `Vegeta`는 보낸 요청의 timeout이 안 지나면 요청에 응답이 돌아올 때까지 기다리고 리포트를 띄우는 걸로 보입니다.
 duration 인자에 시간과 별개로 시간이 걸리고 Error Set을 출력해줍니다.
@@ -136,7 +131,7 @@ https://github.com/tsenart/vegeta
 
 ---
 
-# Gatling
+## Gatling
 
 `Gatling`은 scala 기반으로 netty, akka를 사용한 테스트 툴 입니다.
 
@@ -148,7 +143,7 @@ https://github.com/tsenart/vegeta
 - 단점
     - 스크립트를 스칼라로 작성해야함 (중요)
 
-## 사용예시
+### 사용예시
 
 gatling 사이트에서 들어가면 다운로드 파일을 받습니다.
 
@@ -256,23 +251,20 @@ gatling.sh를 실행합니다. 윈도우에서는 gatling.bat 파일을 실행�
 
 터미널에 로그도 띄어주고 응답시간이나 성공, 실패등을 그래프로 그려서 html 파일에 저장해줍니다.
 
-![Gatling1](https://s3.ap-northeast-2.amazonaws.com/williybolg/gatling1.png)
+{% include image.html img="performance_test_tool/1.png" alt="Gatling1" %}
 
-![Gatling2](https://s3.ap-northeast-2.amazonaws.com/williybolg/gatling2.png)
-
-
-
+{% include image.html img="performance_test_tool/2.png" alt="Gatling2" %}
 
 html 리포트 파일을 보시면 응답시간 분포를 확인할 수 있습니다. 
 
-## 후기
+### 후기
 
 시간별 응답 분포를 볼 수 있고 테스트 중에서도 퍼포먼스만 테스트한다면 괜찮은 툴로 보였습니다. 하지만 단점으로는 스칼라로 스크립트를 해야하는 점이 별로였습니다.
 스칼라 특유의 난해함을 스크립트 작성때도 느껴야 하는 것은 별로입니다.
 
 ---
 
-# JMeter
+## JMeter
 
 `JMeter`는 아파치에서 만든 java 기반의 오픈소스로 오래된 테스트 툴중 하나입니다.
 
@@ -286,7 +278,7 @@ html 리포트 파일을 보시면 응답시간 분포를 확인할 수 있습�
   - 결과는 리스너로 만들어 보는데 모니터링이 불편함
   - 스레드 기반이라 성능제약이 있다고 함
 
-## 사용예시
+### 사용예시
 
 `JMeter` 기본적으로 자바가 설치되어 있어야합니다.
 
@@ -301,25 +293,19 @@ mac과 우분투에서는 apt, brew 같은 패키지 관리자로도 설치가 �
 
 먼저 시나리오를 만들어서 그 안에 스레드 그룹을 만들고 유저수(스레드)와 몇 번 반복할지를 입력합니다.
 
-![jmeter1](https://s3.ap-northeast-2.amazonaws.com/williybolg/jmeter1.png)
-
-
+{% include image.html img="performance_test_tool/3.png" alt="jmeter1" %}
 
 
 그 다음 원하는 add 버튼을 눌러서 프로토콜의 request를 추가하고 server ip와 포트를 입력하고
 인자 값까지 추가 할수 있습니다.
 
-![jmeter2](https://s3.ap-northeast-2.amazonaws.com/williybolg/jmeter2.png)
-
+{% include image.html img="performance_test_tool/4.png" alt="jmeter2" %}
 
 
 리포트는 graph, summary, table 등 다양하게 있습니다.
 보고 싶은 리포트가 있다면 add 버튼에서 listener를 추가할 수 있습니다.
 
-![jmeter3](https://s3.ap-northeast-2.amazonaws.com/williybolg/jmeter3.png)
-
-
-
+{% include image.html img="performance_test_tool/5.png" alt="jmeter3" %}
 
 start 버튼으로 실행시키면 테스트가 실행됩니다.
 
@@ -329,7 +315,7 @@ start 버튼으로 실행시키면 테스트가 실행됩니다.
 
 http://doloadtest.blogspot.com/2018/04/upload-download-from-aws-s3-via-jmeter.html
 
-## 후기
+### 후기
 
 위의 테스트 툴이 웹서버에만 한정해서 테스트가 가능했다면 `JMeter`는 서버 전체의 다양한 테스트가 가능했습니다.
 
@@ -338,7 +324,7 @@ http://doloadtest.blogspot.com/2018/04/upload-download-from-aws-s3-via-jmeter.ht
 
 ---
 
-# nGrinder
+## nGrinder
 
 `nGrinder`는 네이버에서 만든 오픈 소스입니다.
 
@@ -352,7 +338,7 @@ http://doloadtest.blogspot.com/2018/04/upload-download-from-aws-s3-via-jmeter.ht
   - controller가 tomcat 필요함 tomcat이 싫다면 docker를 사용하는 것도 방법
   - Thread 기반으로 구현되어 있어 성능과 동시성에 대해 제한이 있다고 함 (grinder)
 
-## 사용 예시
+### 사용 예시
 
 저는 tomcat을 설치하고 싶지 않아서 `nGrinder` controller는 docker에서 설치했습니다.
 
@@ -372,20 +358,21 @@ agent를 실행하면 controller에서 agent를 찾아냅니다.
 
 
 다른 툴들과 같이 입력할 사항 스크립트를 등록하고 테스트를 실행시킵니다.
-![ngrinder1](https://s3.ap-northeast-2.amazonaws.com/williybolg/nGrinder1.png)
 
+{% include image.html img="performance_test_tool/6.png" alt="ngrinder1" %}
 
 
 그러면 모니터링을 볼수 있고 결과가 남습니다.
-![ngrinder2](https://s3.ap-northeast-2.amazonaws.com/williybolg/nGrinder2.png)
 
-## 후기
+{% include image.html img="performance_test_tool/7.png" alt="ngrinder2" %}
+
+### 후기
 
 테스트를 예약해서 주기적으로 할 수 있고 모니터링도 심플하고 좋았습니다. 개인적으로 위의 4가지 툴 보다 편리했습니다.
 
 ---
 
-# 요약
+## 요약
 
 `Wrk` : 몇 개 날리는게 상관 없이 간단하게 서버 부하 테스트를 하고 싶을 때 
 

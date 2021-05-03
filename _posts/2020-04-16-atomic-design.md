@@ -1,11 +1,9 @@
 ---
-layout: post
-title: "리액트와 아토믹 디자인 패턴"
-author: dajyu
-categories: [ Tech ]
-image: assets/images/thumbnail/bump-collaboration-colleagues-1068523.jpg
-featured: true
+title: 리액트와 아토믹 디자인 패턴
 excerpt: 아토믹 디자인 시스템을 통한 내부 적용사례입니다.
+image: thumbnail/atomic.jpg
+categories: [tech]
+author: dajyu
 ---
 
 ## 아토믹 디자인이란?
@@ -17,8 +15,7 @@ excerpt: 아토믹 디자인 시스템을 통한 내부 적용사례입니다.
 - Templates: 유기체들을 모아 템플릿으로 생성
 - Pages: 실제 페이지를 구성
 
-<img src="../assets/images/atomic-design/1.png">  
- 
+{% include image.html img="atomic-design/1.png" %}
 
 ## 왜 아토믹 디자인인가?
 
@@ -34,7 +31,7 @@ excerpt: 아토믹 디자인 시스템을 통한 내부 적용사례입니다.
 ## 실제후기 
 현재 회사에서 개발중인 React 프로젝트에서 아토믹 디자인 패턴을 적용해 봤는데, 처음 단계인 atom만 잘 만들어 두면 다음 작업이 순조롭다는 것을 몸소 체험 중이다. 굳이 페이지마다 스타일을 줘서 커스텀 할 필요도 없고(물론 디테일이 필요할 수도 있다), 그 덕분에 더 이상 className을 신경쓰며 개발할 필요가 없다는 점 또한 아주 마음에 들었다.  
 
-<img src="../assets/images/atomic-design/2.png">  
+{% include image.html img="atomic-design/2.png" %}
 
 
 실제로 아토믹 패턴을 적용해보면서 molecule에 대한 관점 또한 달라지게 되었다. atom부터 organism 단계까지는 무조건 재사용성이 가능해야 한다는 강박관념(?)이 있었는데, 알고보니 atom 만 재사용성이 강조되며 그 이후의 단계는 재사용성이 가능해질 수도, 또는 한 페이지에서만 사용될 수도 있다는 것이다. 하지만 재사용이 될 수도 있기 때문에 네이밍이 굉장히 중요하다. (회원가입 페이지에서만 쓰일 줄 알고 SignUpFormWithEmailAndPassword라고 만들었던 것이 있는데, 로그인 화면에도 똑같이 쓰여 FormWithEmailAndPassword로 이름을 바꾸게 되었다..)
@@ -44,7 +41,7 @@ excerpt: 아토믹 디자인 시스템을 통한 내부 적용사례입니다.
 컴포넌트화, 재사용성과 통일된 스타일, 블록처럼 조합하면 되는 간편함 등 아토믹 디자인 패턴을 리액트 컴포넌트 개발에 도입하게 되면 효율성이 극대화 될 수 있다. 아토믹 디자인 패턴을 적용한다 이는 곧 가장 리액트다운 개발이 가능하게 된다.
 
 
-### 적용예제
+#### 적용예제
   
 ```jsx
 // Button 컴포넌트
@@ -102,8 +99,8 @@ const FormLabel = () => (
 
 
 **참고자료**  
-https://patternlab.io/  
-https://bradfrost.com/blog/post/atomic-web-design/ (원문)  
-https://brunch.co.kr/@ultra0034/63 (위 원문의 한글 번역)  
-https://www.smoh.kr/276  
-https://medium.com/@inthewalter/atomic-design-for-react-514660f93ba  
+- https://patternlab.io/    
+- https://bradfrost.com/blog/post/atomic-web-design/ (원문)  
+- https://brunch.co.kr/@ultra0034/63 (위 원문의 한글 번역)  
+- https://www.smoh.kr/276  
+- https://medium.com/@inthewalter/atomic-design-for-react-514660f93ba  

@@ -1,20 +1,18 @@
 ---
-layout: post
-title: "파이썬 세 개의 점, Ellipsis 객체는 무엇인가요?"
-author: Jason
-categories: [ Tech ]
-image: assets/images/thumbnail/python-ellipsis.jpg
-featured: true
+title: 파이썬 세 개의 점, Ellipsis 객체는 무엇인가요?
 excerpt: 파이썬에서 사용되는 Ellipsis 객체의 여러가지 용법에 관한 내용을 번역하였습니다.
+image: thumbnail/python-ellipsis.jpg
+categories: [tech]
+author: jason
 ---
 
-> 아래 글은 [출처](https://www.pakstech.com/blog/python-ellipsis/)의 글을 저자의 허락하에 번역한 내용입니다.
+> 아래 글은 [출처](https://www.pakstech.com/blog/python-ellipsis/){:target="_blank"}의 글을 저자의 허락하에 번역한 내용입니다.
 
-파이썬에서 Ellipsis 객체(…)를 우연히 발견하고 어떻게 사용되는지 궁금했습니다. 원래 [Numeric Python](https://numpy.org/) 패키지에서 매트릭스 슬라이싱을 위해 사용하도록 소개되었지만 다른 목적으로 사용하지 못하는 것은 아닙니다.
+파이썬에서 Ellipsis 객체(…)를 우연히 발견하고 어떻게 사용되는지 궁금했습니다. 원래 [Numeric Python](https://numpy.org/){:target="_blank"} 패키지에서 매트릭스 슬라이싱을 위해 사용하도록 소개되었지만 다른 목적으로 사용하지 못하는 것은 아닙니다.
 
 Ellipsis 객체의 원래 용법은 다차원 데이터 배열을 보다 쉽게 처리 할 수 있도록 하는 것이었습니다. 또한 FastAPI라는 비교적 새로운 웹 프레임워크에 적용된 용법도 있습니다.
 
-# Numpy indexing
+## Numpy indexing
 간단한 사례부터 시작하겠습니다. 콜론(:) 문자로 목록을 슬라이스하는데 사용 된다는 것은 이미 알고 있을 것입니다(`start:step:end`). 단독으로 사용하면 기본적으로 원래 목록이 반환됩니다.
 
 ```python
@@ -117,7 +115,7 @@ IndexError: an index can only have a single ellipsis ('...')
 
 이 경우는 콜론(:)을 사용해야 합니다.
 
-# 다른 용도
+## 다른 용도
 Ellipsis 객체는 실제로 어떤 동작도 수행하지 않으므로 `작동 없음`을 기술하는데 사용할 수도 있습니다. 따라서 다음처럼 스텁 함수로 유효합니다.
 
 ```python
@@ -173,7 +171,7 @@ async def something(q: str = Query(..., min_length=10)):
 
 FastAPI 프레임워크를 처음 접하는 사람에게는 명확하진 않지만, 매우 영리한 해법입니다. None 값은 기본값이 없는 경우에 사용되므로 위와 같은 경우에는 사용할 수 없습니다. 물론 보다 전통적인 방법으로 `required=True` 파라미터와 같은 플래그를 추가하는 방법이 있습니다.
 
-# 결론
+## 결론
 이제 Ellipsis 객체가 무엇이고 어디에 사용될 수 있는지 알았습니다. 당신은 다른 사용 사례를 알고 있으신가요?
 
 > 역자주: FastAPI에 적용된 사례는 곰곰히 생각하면 '저렇게도 사용할 수 있겠구나'라고 생각되지만, 보기전까지 저렇게 생각하기란 정말 어려운 거 같습니다.

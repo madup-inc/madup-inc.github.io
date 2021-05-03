@@ -1,0 +1,19 @@
+# Page sidebar widgets
+page:
+  - widget: recent
+    title: RECENT ARTICLES
+    count: 8
+
+  - widget: categories
+    title: CATEGORIES
+    count: 5
+
+  - widget: authors
+    title: CONTRIBUTORS
+    count: 5
+    
+# Footer sidebar widgets
+footer:
+  - widget: about
+    # content: Content of some sort..
+    copyright: true

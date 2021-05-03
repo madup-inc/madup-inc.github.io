@@ -1,131 +1,122 @@
-# Site
-name: "MadTech"
-title: "MadTech"
-description: "애드테크 기반 모바일 퍼포먼스 마케팅, 매드업 블로그입니다."
-#meta_description: ""
-logo: "assets/images/logo.png"
-favicon: "assets/images/favicon.ico"
-google_analytics: "UA-126392657-1"
-disqus: "maedeueob-gisulbeulrogeu"
-include: ["_pages"]
-permalink: /:title/
+# Welcome to Plus!
+#
+# This config file affects your whole blog.
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
 
-# Authors
-authors:
-  Jason:
-    name: Jason
-    display_name: Jason
-    avatar: "assets/avatars/jason.png"
-    email: sngwon@madup.com
-    description: "매드업 대표님의 충직한 직원입니다"
-  Willy:
-    name: Willy
-    display_name: Willy
-    avatar: "assets/avatars/willy.png"
-    email: qowns8@madup.com
-    web: https://github.com/qowns8
-    description: "매드업의 서버 개발자입니다"
-  Wendy:
-    name: Wendy
-    display_name: Wendy
-    email: aracho@madup.com
-    web: https://github.com/byaracho
-    description: "매드업의 데이터 분석가입니다"
-  Cindy:
-    name: Cindy
-    display_name: Cindy
-    email: ymr@madup.com
-    web: https://github.com/firepunch
-    description: "매드업의 프론트엔드 개발자입니다"
-  Chris:
-    name: Chris
-    display_name: Chris
-    web: https://github.com/jeonghwan-kim
-  seunghyun:
-    name: seunghyun
-    display_name: 장승현
-    avatar: "assets/avatars/seunghyun.jpg"
-    description: "매드업을 알리기 위해 키보드 위를 뛰어다니는 사람입니다!! 🏃‍♀️🏃‍♂️"
-  erick:
-    name: erick
-    display_name: Erick
-    avatar: "assets/avatars/erick.jpg"
-    description: "매드업 간판입니다"
-  soyeon:
-    name: soyeon
-    display_name: 박소연
-    avatar: "assets/avatars/soyeon.jpg"
-    description: "매드업의 이야기가 있는 곳이라면 어디든지 달려갑니다!"
-  jeffrey:
-    name: jeffrey
-    display_name: Jeffrey
-    avatar: "assets/avatars/jeffrey.jpg"
-    description: "음악과 커피를 사랑하는 흔한 프로그래머"
-  jayden:
-    name: jayden
-    display_name: Jayden
-    avatar: "assets/avatars/jayden.jpg"
-    description: "얼굴이 작아보이게 벤티 머그컵과 함께ㅎ 매드업에서 꿈을 이뤄드립니다."
-  dajyu:
-    name: dajyu
-    display_name: Dajyu
-    avatar: "assets/avatars/dajyu.png"
-    description: "매드업에서 성장중인 프론트엔드 개발자"
-  Spike:
-    name: Spike
-    display_name: Spike
-    avatar: "assets/avatars/spike.png"
-    description: "카페인, 니코틴, 알코올, 파이썬 중독자"
-  Tim:
-    name: Tim
-    display_name: Tim
-    avatar: "assets/avatars/tim.jpeg"
-    description: "비 오는 날만 재택하는 남자"
-  Ahrim:
-    name: Ahrim
-    display_name: 김아림
-    avatar: "assets/avatars/ahrim.jpg"
-    description: "MAD하게 성장 중인 매드업을 기록합니다!"
-  Ryan:
-    name: Ryan
-    display_name: Ryan
-    avatar: "assets/avatars/ryan.jpeg"
-    description: "일 많이 가지고 오는 돌격대장"
-  Keating:
-    name: Keating
-    display_name: Keating
-    avatar: "assets/avatars/Keating.png"
-    description: "오늘보다 더 나은 내일을 코딩합니다."
-  John:
-    name: John
-    display_name: John
+# Site settings
+title:              MADTECH
+description:        매드업 블로그
+url:                # Site base hostname & protocol, e.g. http://example.com
+baseurl:            "" # Site subpath, e.g. /blog
+logo_image:
+  dark:             # Dark logo e.g logo-dark.svg upload to /uploads/ folder, used in header, mobile navigation and page sidebar About widget
+  light:            # Light logo e.g. logo-light.svg upload to /uploads/ folder, used in footer About widget
+permalink:          /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+date_format:        "%B %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+uploads:            /uploads/ # Path to post content assets directory i.e post images, pdfs etc
+paginate:           7 # Number of posts displayed on blog page
+paginate_path:      "/blog/:num/" # Blog path
+google_analytics:   UA-126392657-1
+disqus:
+  shortname:        maedeueob-gisulbeulrogeu # Disqus comments shortname, requires Disqus account https://disqus.com/
 
-# Plugins
+instagram_accesstoken: 
+
+footer:             # Default footer image settings
+  copyright:        COPYRIGHT ©2021 MADUP INC. ALL RIGHT RESERVED.
+
+# navbar settings
+navbar_primary:
+  sticky:           true
+  social:           true
+  search:           true
+
+# Social share buttons
+social_share:
+  twitter:          true
+  facebook:         true
+  linkedin:         false
+  pinterest:        false
+  reddit:           false
+
+# Social networks
+social_networks:
+  email:            contact@madup.com
+  website:          https://madup.com
+  facebook:         https://www.facebook.com/%EB%A7%A4%EB%93%9C%EC%97%85-MADUP-1001144700008162
+  flickr:         
+  dribbble:       
+  github:         
+  reddit:         
+  instagram:        https://www.instagram.com/madup.communication
+  linkedin:         https://www.linkedin.com/company/madup
+  pinterest:      
+  twitter:
+  vimeo:          
+  youtube:          https://www.youtube.com/channel/UCH2iVO4M5xd8d5WytiICN3g
+
+# Strings
+strings:
+  author_by:        By
+
+# Build settings
+markdown:           kramdown
+highlighter:        rouge
+
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-archives
+  - jekyll-gist
+  - jekyll-avatar
+  - jekyll-sitemap
 
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: "/category/:name/"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - CHANGELOG
+  - LICENSE
+  - README
+  - /docs
 
-# Pagination
-paginate: 6
-paginate_path: /page:num/
+sass:
+  style:            compressed
 
-# Other
-markdown: kramdown
+# collections:
+collections:
+  authors:
+    output: true
+  category:
+    output: true
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      sidebar: left
+  # _authors
+  - scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+  # _category
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: category

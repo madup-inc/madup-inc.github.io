@@ -1,10 +1,8 @@
 ---
-layout: post
-title:  "스칼라에서 노드JS로 갈아탄 이유"
-author: Chris
-categories: [ Tech ]
-image: assets/images/thumbnail/ad.jpg
-featured: true
+title: 스칼라에서 노드JS로 갈아탄 이유
+image: move-scala-to-nodejs/thumbnail.jpg
+categories: [tech]
+author: chris
 ---
 
 매드업은 광고 진행을 위한 기술 솔루션을 개발하는 팀입니다.
@@ -69,8 +67,7 @@ AWS 빈스톡 위에서 돌아가는 서비스입니다.
 
 올해 스택오버플로우에서 조사한 개발 언어 인기조사에서의 스칼라 순위가 이를 방증하고 있다고 생각합니다.
 
-![](../assets/images/stackoverflow-developer-servey-results-2018.jpg)
-<small style="display:block;text-align:center">- [Stackoverflow Developer Servey Results 2018](https://insights.stackoverflow.com/survey/2018/#technology-programming-scripting-and-markup-languages) 참고 -</small>
+{% include image.html img="move-scala-to-nodejs/1.jpg" alt="stackoverflow" caption="Stackoverflow Developer Servey Results 2018" %}
 
 대안으로 **자바스크립트**를 선택했습니다.
 정도의 차이는 있지만 팀원 모두가 노드JS에 대한 경험이 있었고, 최소한 코드를 읽을 수 있는 역량은 갖추고 있는 상황이기 때문입니다.
@@ -88,8 +85,7 @@ AWS 빈스톡 위에서 돌아가는 서비스입니다.
 리액트 어플리케이션을 올려 정적 파일로 처리할 수 있는 단일 웹어플리케이션을 재구축했습니다.
 이 어플리케이션 코드는 하나의 빈스톡 환경에 배포하여 프론트엔드와 백앤드를 함께 호스팅하도록 했구요.
 
-![기존 어플리케이션 구조](../assets/images/infra.jpg)
-<center><small>- 현행 서버와 신규 서버(파란색) 병행 -</small></center>
+{% include image.html img="move-scala-to-nodejs/infra.jpg" alt="기존 어플리케이션 구조" caption="현행 서버와 신규 서버(파란색) 병행" %}
 
 신규 서비스는 여전히 스칼라로 만든 백엔드 API를 호출하고 있는 상태입니다.
 운영 중인 서비스를 중단없이 기술 이관하기 위해 **점진적으로 개발**하자는 전략을 세웠습니다.
@@ -100,8 +96,7 @@ AWS 빈스톡 위에서 돌아가는 서비스입니다.
 
 예상치 못한 상황에 대비한 피쳐토글을 두어 `apiUrlAdaptor` 역할을 무력화하여 신규 API 사용을 방지하는 예비책도 준비했구요.
 
-![변경된 임시 어플리케이션 구조](../assets/images/apiUrlAdaptor.jpg)
-<center><small>- apiUrlAdaptor의 역할 -</small></center>
+{% include image.html img="move-scala-to-nodejs/apiUrlAdaptor.jpg" alt="변경된 임시 어플리케이션 구조" caption="apiUrlAdaptor의 역할" %}
 
 모든 API를 노드로 이관한 뒤 이 역할을 다한 `apiUrlAdaptor`와 피처토글을 제거하여
 클라이언트에서 발생한 모든 API요청을 스칼라 서버에서서 노드JS 서버로 변경했습니다.

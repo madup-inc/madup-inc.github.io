@@ -1,0 +1,27 @@
+# Navbar menu navigation links
+left:
+
+center:
+  - title: Home
+    url: /
+
+  - title: MADUP Inside
+    dropdown:
+      - title: Insight
+        url: /category/insight
+      - title: Culture
+        url: /category/culture
+      - title: People
+        url: /category/people
+
+  - title: Tech
+    url: /category/tech
+
+  - title: Design
+    url: /category/design
+
+  - title: Career
+    url: https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee
+
+
+right:

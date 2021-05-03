@@ -1,15 +1,15 @@
 ---
-layout: post
-title:  "광고에도 차별 금지 정책이 적용된다고?"
-author: Wendy
-categories: [ AdTech ]
+title: 광고에도 차별 금지 정책이 적용된다고?
+excerpt: 타게팅 옵션 살펴보기
 image: https://user-images.githubusercontent.com/35296703/55201832-34c43280-5208-11e9-94eb-dd06ce731e02.jpg
-featured: true
+categories: [insight]
+tag: [Adtech]
+author: wendy
 ---
   
 페이스북 광고를 집행해보신 적이 있다면, 한번쯤은 타게팅 옵션을 사용해보신 경험이 있으실 겁니다. 페이스북은 로그인 기반의 사용 환경과, SNS라는 매체 특성 때문에 다른 매체보다 좀 더 세부적이고 정확한 타게팅을 자랑합니다. 하지만 타게팅 옵션을 자세히 살펴보면 약간 이상한 점을 발견할 수 있습니다.  
 
-![targeting](https://user-images.githubusercontent.com/35296703/55201729-b10a4600-5207-11e9-9d77-886d3345dea7.png) 
+{% include image.html img="https://user-images.githubusercontent.com/35296703/55201729-b10a4600-5207-11e9-9d77-886d3345dea7.png" alt="targeting" %}
 
 바로 상세 타게팅 옵션 중 일치 타게팅과, 제외 타게팅의 **옵션이 상이**하다는 점입니다.   
 
@@ -60,10 +60,3 @@ featured: true
   
 
 공정하고 포용적인 플랫폼으로 거듭나기 위한 페이스북의 노력, 그리고 이러한 변화가 다른 플랫폼에 미칠 영향. 마케터는 이러한 변화의 바람 속에서 기민하게 반응하여야 효과적인 마케팅을 할 수 있을 것으로 보입니다. :)  
-
-  
-
-
-
-
-

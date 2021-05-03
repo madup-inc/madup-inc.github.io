@@ -1,11 +1,9 @@
 ---
-layout: post
-title:  "AWS에서 SAM 서비스를 이용해 파이썬 서버리스 프로젝트를 만드는 방법"
+title: AWS에서 SAM 서비스를 이용해 파이썬 서버리스 프로젝트를 만드는 방법
+excerpt: SAM cli 도구를 이용하여  CloudFormation으로 배포해 스택을 생성하는 방법을 공유합니다.
+image: thumbnail/python-sam.jpg
+categories: [tech]
 author: jeffrey
-categories: [ Tech ]
-image: assets/images/thumbnail/art-background-black-633409.jpg
-featured: true
-excerpt: SAM cli 도구를 이용하여  CloudFormation으로 배포해 스택을 생성하는 방법에 대한 포스팅
 ---
 
 ## 개요
@@ -22,7 +20,7 @@ AWS의 SAM 문서를 살펴보면 다음과 같은 문장이 있다.
 
 이 서비스는 서버리스 앱에 대한 기반을 정의하는 문서가 필요하다. yaml, json 두가지 포맷을 지원하며 기본 이름은 template.yaml 혹은 template.json이다.
 
-만약 SAM에 대한 메뉴얼 문서를 보고싶다면, [AWS의 공식 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)와 [AWS SAM github페이지](https://github.com/awslabs/serverless-application-model)를 참고하는 것이 좋다.
+만약 SAM에 대한 메뉴얼 문서를 보고싶다면, [AWS의 공식 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html){:target="_blank"}와 [AWS SAM github페이지](https://github.com/awslabs/serverless-application-model){:target="_blank"}를 참고하는 것이 좋다.
 
 ## 설치
 
@@ -107,18 +105,18 @@ sam init --name "PROJECT_NAME" --runtime python3.7 # 파이썬은 2.7, 3.6, 3.7,
 
 이제 여기에 template.yaml 파일을 수정하면 된다.
 
-### template.yaml
+#### template.yaml
 
 템플릿 파일은 AWS에 구축될 서버리스 앱의 구조를 작성하는 문서이다. yaml과 json 포맷을 지원하지만 json보다 작성이 편하기 때문에 yaml로 작성하는것을 추천한다.
 구조를 전부 설명하기엔 너무 길어지고 불필요한 내용도 많기 때문에 아래 문서들을 참고하면서 작성하면 그럭저럭 작성할 수 있다.
 
-* github의 template 스펙 문서: [https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md](https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md)
+* [github의 template 스펙 문서](https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md){:target="_blank"}
 
-* AWS의 SAM 문서: [https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html)
+* [AWS의 SAM 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html){:target="_blank"}
 
-* AWS의 CloudFormation 문서: [https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-reference.html](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-reference.html)
+* [AWS의 CloudFormation 문서](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-reference.html){:target="_blank"}
 
-* SAM cli 릴리즈 노트: [https://github.com/awslabs/aws-sam-cli/releases](https://github.com/awslabs/aws-sam-cli/releases)
+* [SAM cli 릴리즈 노트](https://github.com/awslabs/aws-sam-cli/releases){:target="_blank"}
 
 CloudFormation문서를 함께 봐야 하는 이유는 SAM 서비스가 CloudFormation에서 왔기 때문에 SAM 문서에는 없지만 지원하는 서비스가 있기 때문이다.
 
@@ -130,11 +128,11 @@ SAM 프로젝트는 보통 다음 절차로 배포가 된다
 
 여기서 코드검사는 SAM cli의 기능이 아직 완전하지 않아서 template 파일에 있는 오류를 다 잡아주지 못한다. 배포 도중에 에러가 나서 잡아야 하는 경우도 많아지니 현재는 생략해도 관계 없는 단계이다.(0.41.0 기준)
 
-### 빌드
+#### 빌드
 
 빌드는 build 명령어로 실행하는데, 아마존 리눅스의 환경에 맞춰서 패키지를 빌드한다. 이 때 패키지 대상 폴더에 있는 requirements.txt 파일에 있는 패키지들을 함께 다운로드하도록 되어있다.
 
-명령어의 여러 옵션이 있지만 대개 이정도 옵션이면 충분하다. 나머지는 [AWS의 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-build.html) 참고
+명령어의 여러 옵션이 있지만 대개 이정도 옵션이면 충분하다. 나머지는 [AWS의 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-build.html){:target="_blank"} 참고
 
 ```bash
 sam build \
@@ -144,13 +142,13 @@ sam build \
 --parameter-overrides ParamKey1=ParamValue1,ParamKey2=ParamValue2
 ```
 
-### 패키징
+#### 패키징
 
 빌드 후 에 빌드폴더에 template.yaml파일이 함께 복사되는데, 그 파일을 CloudFormation에서 사용되는 template 파일 포맷으로 변환된다. 물론 완전히 CloudFormation에서 쓰이는 서비스 코드로 바뀌는 것은 아니다.
 
 이렇게 변환 후에 코드를 압축해서 S3 버킷에 업로드를 한다. 이후에 할 배포 작업은 여기에 업로드한 압축된 코드들을 배포하게된다.
 
-최소한 이정도 옵션은 사용해야 한다. 그 외에 명령어 설명은 [AWS의 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-package.html)를 참고하면 된다.
+최소한 이정도 옵션은 사용해야 한다. 그 외에 명령어 설명은 [AWS의 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-package.html){:target="_blank"}를 참고하면 된다.
 
 ```bash
 sam package \
@@ -160,11 +158,11 @@ sam package \
 --s3-bucket "UPLOAD_S3_BUCKET"
 ```
 
-### 배포
+#### 배포
 
 패키징이 끝난 프로젝트를 배포할 때 이 명령어를 사용한다. 여기에서 배포되는 과정은 CloudFormation 대시보드에서도 확인할 수 있으며 터미널에도 과정이 로그형태로 출력된다. 이 작업이 끝나고나면 람다를 포함한 모든 서비스가 만들어진 뒤에 스택이라는 묶음으로 관리된다.
 
-자세한 배포 명령어에 대한 [AWS 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-deploy.html)
+자세한 배포 명령어에 대한 [AWS 문서](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-deploy.html){:target="_blank"}
 
 ```bash
 sam deploy \

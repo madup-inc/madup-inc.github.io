@@ -1,0 +1,18 @@
+# Mobile menu navigation links
+- title: Home
+  url: /
+
+- title: Insight
+  url: /category/insight
+
+- title: Culture
+  url: /category/culture
+
+- title: People
+  url: /category/people
+
+- title: Tech
+  url: /category/tech
+
+- title: Design
+  url: /category/design
