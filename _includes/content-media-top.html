@@ -9,7 +9,7 @@
     <div class="uk-card-media-top">
       {% if post.image %}
         <a href="{{ post.url | relative_url }}">
-          <img src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }}">
+          <img src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt='{{ post.title }}'>
         </a>
       {% endif %}
     </div>
@@ -27,7 +27,7 @@
         {% endif %}
       <h3 class="card-title-small article-title-font">
         <a href="{{ post.url | relative_url }}">
-          {{ post.title  | replace: '담대하게. CR팀이', '담대하게. <br/> CR팀이' | replace: '등장한 상큼한', '등장한 <br/> 상큼한' }}
+          {{ post.title  | replace: 'Guide 질문에', 'Guide <br/> 질문에' | replace: '등장한 상큼한', '등장한 <br/> 상큼한' }}
         </a>
       </h3>
       <div class="content-secondary">{{ post.excerpt }}</div>

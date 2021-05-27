@@ -3,7 +3,7 @@ title: "Runner's Guide 질문에 대한 답을 찾다"
 excerpt: 매드러너가 말하는 매드업의 미션, 비전, 핵심가치.
 image: guide-releasing/thumbnail.JPG
 categories: [culture]
-tags: [featured]
+tag: [spotlight]
 author: ahrim
 ---
 
