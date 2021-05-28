@@ -28,7 +28,13 @@
           {% endif %}
           <h3 class="uk-card-title uk-article-title article-title-font">
             <a href="{{ post.url | relative_url }}">
-              {{ post.title | replace: 'Guide 질문에', 'Guide <br/> 질문에'}}
+              {% if post.title contains '님, 왜' %}
+                  <span style="font-size: 2.91rem">
+                      {{ post.title | replace: '님, 왜', '님, <br/> 왜' }}
+                  </span>
+              {% else %}
+                  {{ post.title | replace: 'Guide 질문에', 'Guide <br/> 질문에' }}
+              {% endif %}
             </a>
           </h3>
           <div class="content-secondary">{{ post.excerpt }}</div>

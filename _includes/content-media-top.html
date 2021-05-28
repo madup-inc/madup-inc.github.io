@@ -9,7 +9,7 @@
     <div class="uk-card-media-top">
       {% if post.image %}
         <a href="{{ post.url | relative_url }}">
-          <img src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt='{{ post.title }}'>
+          <img src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }}">
         </a>
       {% endif %}
     </div>
