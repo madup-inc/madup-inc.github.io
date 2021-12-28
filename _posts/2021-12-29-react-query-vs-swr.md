@@ -8,7 +8,7 @@ author: chelsea
 
 리액트 개발자라면 누구나 Redux, MobX 등의 상태 관리 라이브러리를 사용해 본 경험이 있을 것이다. 이 라이브러리들은 클라이언트 상태 관리에는 유용하지만, 서버 상태와 동기화되지 않기 때문에 프론트엔드 개발자들은 직접 상태를 업데이트해 줘야 하는 불편함이 있다.
 
-이러한 불편함을 해소하기 위해 등장한 새로운 방식의 라이브러리가 바로 React Query와 SWR이다. 우리 회사의 프로덕트 중 하나인 '[레버](http://biz.lever.me/)'에서는 상태 관리를 위해 SWR을 사용하고 있는데, 개인적으로 공부하던 중 요즘 트렌드는 React Query라는 것을 알게 되었다.
+이러한 불편함을 해소하기 위해 등장한 새로운 방식의 라이브러리가 바로 React Query와 SWR이다. 우리 회사의 프로덕트 중 하나인 ‘[레버](http://biz.lever.me/)'에서는 상태 관리를 위해 SWR을 사용하고 있는데, 개인적으로 공부하던 중 요즘 트렌드는 React Query라는 것을 알게 되었다.
 
 {% include image.html img="react-query-vs-swr/graph.png" caption="React Query와 SWR의 npm 다운로드 수 비교" %}
 
