@@ -1,7 +1,7 @@
 ---
 title: React Query vs SWR
 excerpt: React Query와 SWR의 차이점
-image: react-query-vs-swr/thumb.png
+image: react-query-vs-swr/thumb.jpg
 categories: [tech]
 author: chelsea
 ---
