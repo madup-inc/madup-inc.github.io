@@ -2,14 +2,7 @@
 
 ### 환경 설정
 
-깃헙 페이지를 이용한 기술 블로그. 마크다운으로 작성한 문서를 정적 파일로 변경하기 위해 루비와 지킬을 이용한다.  
-
-참고: 
- 
-  - [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
-  - [etoile 테마 사용법](https://docs.unbound.studio/etoile-writer-blogger-jekyll-theme/s)
-
-설치: 
+설치:
 
 ```
 $ gem install bundler
@@ -22,15 +15,16 @@ $ bundle install
 $ jekyll serve
 ```
 
-[개발 서버](http://127.0.0.1:4000)에 접속하면 블로그를 확인할 수 있다. 
+[개발 서버](http://127.0.0.1:4000)에 접속하면 블로그를 확인할 수 있다.
 
+### 글 업로드 방법
 
-## Images
+1. `_posts` 폴더에 `YYYY-MM-DD-{글제목}.md` 파일을 생성한다.  
+1. 글의 첨부 이미지는 `uploads/{글제목}` 경로에 저장한다.  
+1. md 파일에 이미지를 첨부할 때는 아래 코드 사용을 권장한다.  
+   `{% include image.html img="{글제목}/{이미지명.확장자}" caption={이미지설명} %}`
 
-- 썸네일은 assets/images/thumbnail 경로에 {글제목}을 파일명으로 저장한다.
-- 글에 첨부하는 이미지는 assets/images/{글제목} 경로에 저장한다.
+### 참고
 
-
-## Disqus
-
-- _config.yml 파일에서 직접 등록한다.  
+- [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+- [etoile 테마 사용법](https://docs.unbound.studio/etoile-writer-blogger-jekyll-theme/s)
