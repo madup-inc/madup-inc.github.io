@@ -1,7 +1,7 @@
 ---
 title: 프론트엔드 테스트 팁
 excerpt: 프론트 테스트 종류와 개발 경험담 그리고 유닛테스트 가이드까지
-image: front-test-tips/2.png
+image: front-test-tips/thumb.png
 categories: [tech]
 author: willy
 ---
