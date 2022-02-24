@@ -1,0 +1,19 @@
+{% if include.controls == 'true' %}
+<figure>
+    <video loop controls controlsList="nodownload">
+        <source src="{{ site.uploads }}/{{ include.src }}"
+                type="video/mp4"
+        />
+    </video>
+    <figcaption>{{ include.caption }}</figcaption>
+</figure>
+{% else %}
+<figure>
+    <video loop autoplay>
+        <source src="{{ site.uploads }}/{{ include.src }}"
+                type="video/mp4"
+        />
+    </video>
+    <figcaption>{{ include.caption }}</figcaption>
+</figure>
+{% endif %}

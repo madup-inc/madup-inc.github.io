@@ -23,6 +23,8 @@ $ jekyll serve
 1. 글의 첨부 이미지는 `uploads/{글제목}` 경로에 저장한다.  
 1. md 파일에 이미지를 첨부할 때는 아래 코드 사용을 권장한다.  
    `{% include image.html img="{글제목}/{이미지명.확장자}" caption={이미지설명} %}`
+1. md 파일에 영상 첨부시에는 아래 코드 사용이 가능하다.
+   `{% include video.html src="{글제목}/{이미지명.mp4}" caption="예시" %}`
 
 ### 참고
 
