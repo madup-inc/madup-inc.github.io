@@ -63,6 +63,9 @@ strings:
 # Build settings
 markdown:           kramdown
 highlighter:        rouge
+lsi:                   false
+excerpt_separator: "\n\n"
+incremental:         false
 
 plugins:
   - jekyll-feed
