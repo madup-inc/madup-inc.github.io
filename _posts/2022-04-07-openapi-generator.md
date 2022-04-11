@@ -31,7 +31,8 @@ GraphQL 은 바로 위와 같은 문제에 대한 근본적인 대안으로 등�
 
 사실 TypeScript 와 GraphQL 이 해결하는 문제는 비슷합니다. TypeScript 가 타입이 없는 JavaScript 에 정적 타이핑이라는 옷을 입게 해주는 것 같이, GraphQL 은 타입이 없는 API 가 강력한 타입 옷을 입게 해줍니다.
 
-{% include image.html img="/openapi-generator/3.png" %}
+{% include image.html img="/openapi-generator/3.png" caption="출처: University of Arizona/Heather Roper" %}
+
 
 <br/>
 <br/>
@@ -40,7 +41,7 @@ GraphQL 은 바로 위와 같은 문제에 대한 근본적인 대안으로 등�
 ## 무시할 수 없는 GraphQL의 진입장벽
 요즘 개발 커뮤니티를 바라보면 프론트엔드 개발에서 TypeScript 의 위상은 지속적으로 견고해 지고 있는 것 같습니다. 하지만 GraphQL 의 성장세는 기대보다는 조금 더딘 것 같습니다. 그것은 아무래도 GraphQL 의 도입을 위한 진입장벽과 학습장벽이 제법 높기 때문이지 않을까요. 그것은 GraphQL 자체의 학습장벽 뿐만 아니라 GraphQL 의 도입은 개인이 홀로 할 수 있는 것이라기 보다 프론트엔드와 백엔드 개발자 사이의 그리고 여러 이해당사자들 간의 공감대와 협의가 필요하기 때문일 것입니다.
 
-{% include image.html img="/openapi-generator/4.png" %}
+{% include image.html img="/openapi-generator/4.png" caption="출처: https://brunch.co.kr/@realdude/12" %}
 
 <br/>
 <br/>
