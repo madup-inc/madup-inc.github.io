@@ -122,4 +122,4 @@ author: soyeon
 
 **구성원 한 명 한 명의 생생한 목소리가 담긴 미션, 비전, 핵심가치 명문화!** 사람의 힘을 믿고, 사람이 중심이 되어 진행된 이 과정에 대해 다음 콘텐츠부터 자세히 이야기해볼까 합니다. **To Be Continued!**
 
-매드업 성장로켓에 탑승하고 싶다면 [매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}
+매드업 성장로켓에 탑승하고 싶다면 [매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}

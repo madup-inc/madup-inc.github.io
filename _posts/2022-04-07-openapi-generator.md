@@ -152,4 +152,4 @@ package.json 파일에 API 모델을 생성하는 스크립트를 추가합니�
 
 \* *[Keating 님의 블로그에 함께 게시된 글](https://min9nim.vercel.app/2022-04-07-openapi-generator/)입니다.*
 
-👉 [매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee)
+👉 [매드업 채용 바로가기](https://recruit.madup.com)

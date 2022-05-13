@@ -345,4 +345,4 @@ Status: Downloaded newer image for registry.example.com/alipine:latest
 
 ---
 
-[매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}  
+[매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}  

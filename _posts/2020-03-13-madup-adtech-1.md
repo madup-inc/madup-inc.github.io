@@ -63,4 +63,4 @@ author: soyeon
 **2편 보러가기**
 [매드업이 잘하는 AD-TECH(2)](https://tech.madup.com/madup-adtech-2/){:target="_blank"}
 
-**매드업은 지금 채용 중!** [매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}
+**매드업은 지금 채용 중!** [매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}

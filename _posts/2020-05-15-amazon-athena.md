@@ -113,4 +113,4 @@ Athena의 쿼리 결과는 기본적으로 S3 버킷에 저장됩니다. 버킷�
 ---
 
 [매드업이 잘하는 AD-TECH 읽으러 가기](https://www.notion.so/maduphr/f5cafd7a9ab645889a843dcb2bc8605e){:target="_blank"}
-[매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}  
+[매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}  

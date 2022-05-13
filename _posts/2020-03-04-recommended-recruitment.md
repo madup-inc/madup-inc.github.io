@@ -86,4 +86,4 @@ author: soyeon
 hr@madit.kr로 이력서를 전달해주세요 :)  
 
 **추천보다 내가 직접 지원하고 싶다면?**  
-**매드업은 지금 채용 중!** [매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}
+**매드업은 지금 채용 중!** [매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}

@@ -79,7 +79,7 @@ author: erick
 
 ---
 
-**매드업은 지금 채용 중!** [매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}  
+**매드업은 지금 채용 중!** [매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}  
 
 [매드업 지원자를 위한 영상 -1](https://www.youtube.com/watch?v=6eegjYQv9WM&t=87s){:target="_blank"} /
 [매드업 지원자를 위한 영상 -2](https://www.youtube.com/watch?v=4r6D8bP53IE&t=224s){:target="_blank"}  

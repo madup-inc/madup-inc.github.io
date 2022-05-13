@@ -73,4 +73,4 @@ author: soyeon
 
 수치가 말해주지 못하는 사실들은 이토록 많습니다. 매드업이 앞으로 펼쳐나갈 성장에는 또 무엇이 있을까요?
 
-매드업의 성장과 함께 하고 싶다면 [매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}
+매드업의 성장과 함께 하고 싶다면 [매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}

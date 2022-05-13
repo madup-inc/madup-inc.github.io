@@ -57,6 +57,6 @@ author: ahrim
 
 <h2 id="Are you ready to be MAD RUNNER?" style="color: #605CB3;">Are you ready to be MAD RUNNER?</h2>
 → Runner's Guide 전문 읽기 [바로가기](https://s3.ap-northeast-2.amazonaws.com/recruit.madup.com/MADUP+Runner's+Guide_version1.pdf){:target="_blank"}  
-→ 매드업과 함께 달리고 싶은 매드러너를 찾습니다! [매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}
+→ 매드업과 함께 달리고 싶은 매드러너를 찾습니다! [매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}
 
 {% include image.html img="guide-releasing/8.JPG" %}

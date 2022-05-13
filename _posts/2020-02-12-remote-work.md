@@ -85,4 +85,4 @@ author: soyeon
 
 매드업의 자율적인 공간이 주는 힘을 느끼고 싶다면, 지금 매드업과 함께 하세요! :)
 
-**매드업은 지금 채용 중!** [매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}  
+**매드업은 지금 채용 중!** [매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}  

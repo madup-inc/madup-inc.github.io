@@ -100,4 +100,4 @@ AE 직무라면 고객사의 광고를 전담하여 운영하고 성과를 개�
 **디지털 광고 시장에 큰 울림이 될 작은 거인들**, 레버운영팀의 도약은 이제부터입니다! 
 
 
-**레버운영팀 함께 세상을 바꾸고 싶다면?** [매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}
+**레버운영팀 함께 세상을 바꾸고 싶다면?** [매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}

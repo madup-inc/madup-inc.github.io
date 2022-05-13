@@ -146,4 +146,4 @@ author: soyeon
 - [매드업 주니어 AE 빈칸 인터뷰](https://www.youtube.com/watch?v=L4aEjnuBx_I&t=415s){:target="_blank"}  
 - [Lever Google AC Dashboard](https://www.youtube.com/watch?v=01B3tvBAIP4&feature=youtu.be&vq=hd1080){:target="_blank"}  
 
-[매드업 채용 바로가기](https://www.notion.so/maduphr/fff8c23e3b434fb1abdfb36ad915d3ee){:target="_blank"}  
+[매드업 채용 바로가기](https://recruit.madup.com){:target="_blank"}  
