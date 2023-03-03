@@ -139,7 +139,7 @@ print(f"elapsed time: {perf_counter() - stime:.2f} seconds")
 % python request_http_api_async.py
 elapsed time: 1.55 seconds
 ```
-**예제 1**에서 1000초가 넘게 걸렸던 소요 시간이 1.58초로 줄었습니다.
+**예제 1**에서 1000초가 넘게 걸렸던 소요 시간이 1.55초로 줄었습니다.
 이러한 간단한 예제를 통해 네트워크 통신이 많이 발생하는 프로그램에서 왜 asyncio를 사용해야 하는지 알 수 있습니다.
 
 ## asyncio vs multi-threading
