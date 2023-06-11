@@ -433,8 +433,7 @@ Mock Service Worker(MSW)를 도입하면서 가장 좋았던 경험 중 하나�
 
 
 ## 참고자료
-- [https://swagger.io/about/](https://swagger.io/about/)
-- [https://openapi-generator.tech/](https://swagger.io/about/)
+- [https://mswjs.io/docs/](https://mswjs.io/docs/)
 
 
 <br/>
