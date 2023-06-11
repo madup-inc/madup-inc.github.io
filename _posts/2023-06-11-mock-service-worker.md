@@ -25,7 +25,7 @@ author: jake
 ### 1️⃣ 첫번째 고민
 **( 백엔드와 프론트 간의 개발속도 차이로 인한 문제 )**
 
-{% include image.html img="/mock-service-worker/1.png" caption="이상과 현실" %}
+{% include image.html img="/mock-service-worker/1.png" caption="프로적트 개발 계획의 이상과 현실" %}
 
 회사에서는 일반적으로 `기획 -> 백엔드 개발 -> 프론트 개발` 의 순서로 제품을 개발합니다. 하지만 실제로는 `기획 -> 백엔드, 프론트엔드 개발` 처럼 백엔드, 프론트엔드 개발이 동시에 진행되는 경우가 많습니다.
 
@@ -78,7 +78,7 @@ PostMan mock server, Beeceptor… 등등 많습니다.
 
 간단한 컴포넌트의 경우 테스트 라이브러리에서 지원하는 Mockup 처리 관련 메서드를 이용하여 충분히 해결이 가능하지만, 프로덕트가 고도화 됨에 따라 비즈니스 로직과 UI 컴포넌트들이 더욱 복잡해지면 Mockup 처리해야 할 대상이 많아지기 때문에 처리가 어려워질 수 있습니다.
 
-```typescript jsx
+```jsx
 /* 
   모든 Users 정보를 가져오는 부모 컴포넌트 
   특정 유저정보를 찾아 자식 컴포넌트에게 전달하는 역할
@@ -229,7 +229,7 @@ export const handlers = [
 
 코드는 아래와 같이 작성하며, express 와 동일하게 req, res, ctx 객체 활용이 가능하며, 이곳에서는 API호출시 같이 기입된 parameter, body, header 값에 대한 활용이 가능합니다. 해당 값들은 req객체에 들어가 있으며 자세한 사용법은 아래 코드 혹은 공식문서를 참고 바랍니다.
 
-API의 `(req, res, ctx) => {...}`  을 resolver.ts 로 분리
+API의 `(req, res, ctx) => {...}`  을 **resolver.ts** 로 분리
 
 ```typescript
 // src/mocks/handlers.ts
@@ -273,7 +273,7 @@ export default worker
 
 브라우저 환경에서 미리 준비해둔 handler 를 사용하기 위해서는 MSW 의 setupWorker 메서드를 통해 worker 를 먼저 만들어 주셔야 합니다.
 
-```typescript jsx
+```jsx 
 import worker from 'mocks/browser'
 
 // App.ts
@@ -410,7 +410,7 @@ export const returnResolver =
 ### ▶️ 빠른 개발 & 빠른 피드백 반영 가능!
 Mock Service Worker(MSW)를 도입하면서 가장 좋았던 경험 중 하나는 초기에 빠른 개발이 가능했다는 것입니다. 이를 통해 개발 초기 스프린트에서 빠르게 실제 서비스가 동작하는 것처럼 구현이 가능했고, 결과물을 바탕으로 미리 디자이너와 기획자의 피드백을 받을 수 있었습니다.
 
-{% include image.html img="/mock-service-worker/5.jpg" caption="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/5QgIuuBxKwM" %}
+{% include image.html img="/mock-service-worker/5.jpg" caption="출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/5QgIuuBxKwM" %}
 
 프론트엔드 개발의 가장 큰 고민 중 하나는, 개발자와 디자이너 간의 소통입니다. 종종 개발자와 디자이너가 서로 다른 생각으로 결과물을 만들어내기도 하죠. 이러한 이유 때문에 디자이너 검수 및 피드백을 반영하는 데에도 상당한 시간을 투자해야 하는 경우가 많습니다.
 
