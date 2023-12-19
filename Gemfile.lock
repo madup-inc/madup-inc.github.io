@@ -104,6 +104,7 @@ PLATFORMS
   universal-darwin-18
   x64-mingw32
   x64-unknown
+  x86_64-linux-musl
 
 DEPENDENCIES
   jekyll (= 3.6.2)
@@ -118,7 +119,7 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 RUBY VERSION
-   ruby 2.7.5p203
+   ruby 2.7.1p83
 
 BUNDLED WITH
    2.3.10
